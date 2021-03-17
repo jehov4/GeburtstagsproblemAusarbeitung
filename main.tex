@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage{etc/packages}
+\numberwithin{equation}{section}
+
+\makeglossaries
+\input{etc/glossary}
+
+\begin{document}
+\subfile{etc/titlepage}
+
+\pagenumbering{roman}
+
+\begin{abstract}
+Eine kurze Zusammenfassung um was es in der vorliegenden Arbeit \"uberhaupt
+so geht \ldots
+\end{abstract}
+
+\clearpage
+
+{\tableofcontents}
+\setcounter{tocdepth}{3}
+\printglossary
+\printglossary[type=\acronymtype]
+
+\clearpage
+
+\pagenumbering{arabic}
+
+\subfile{parts/herleitungen}
+
+
+%\section{Einf\"uhrung}
+%\paragraph{Herangehensweise}
+%\ref{conclusions}
+%\section{Dokumentenklassen} \label{documentclasses}
+
+%\begin{itemize}
+%\item article
+%\item book 
+%\item report 
+%\item letter 
+%\end{itemize}
+
+%\section{Fazit}\label{conclusions}
+%Nach langer Suche hat sich herausgestellt, dass es kein l\"angeres 
+%\LaTeX{} Beispiel, als das von \cite{doe} geschriebene gibt. 
+
+\begin{thebibliography}{9}
+\bibitem[Doe]{doe} \emph{Erstes und letztes \LaTeX{} Beispiel.},
+John Doe 50 v.Chr.  
+\end{thebibliography}
+
+\end{document}
