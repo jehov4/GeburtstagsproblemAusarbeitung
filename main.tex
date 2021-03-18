@@ -2,6 +2,9 @@
 \usepackage{etc/packages}
 \numberwithin{equation}{section}
 
+\addbibresource{main.bib}
+\graphicspath{graphics/}
+
 \makeglossaries
 \input{etc/glossary}
 
@@ -11,8 +14,8 @@
 \pagenumbering{roman}
 
 \begin{abstract}
-Eine kurze Zusammenfassung um was es in der vorliegenden Arbeit \"uberhaupt
-so geht \ldots
+Sie sitzen im Wartezimmer. Die Darmspiegelung, die sie bis jetzt aufgeschoben haben steht nun an. Sie beschließen sich mit einem Matheproblem abzulenken.
+Das Wartezimmer füllt sich langsam mit Menschen und sie überlegen wie Wahrscheinlich es ist, dass einer dieser Personen am selben Tag wie sie Geburtstag hat. Sie knobeln eine Weile und kommen schließlich zu dem Schluss, dass das Wartezimmer garnicht genug Raum bietet, um so viele Personen zu beherbergen, dass die Wahrseinlichkeit einer Geburtstagsüberschneidung auch nur bei 50\% liegt. Sie geben auf und googeln und tatsächlich die Wahrscheinlichkeit dass ein Person im Raum mit ihnen Geburtstag hat ist mit der 23 Person die gerade das Wartezimmer betrat auf 23 gestiegen. Die Mathematik dahinter finden sie hier.
 \end{abstract}
 
 \clearpage
@@ -24,9 +27,14 @@ so geht \ldots
 
 \clearpage
 
+
 \pagenumbering{arabic}
 
+\subfile{parts/einfuehrung}
+
 \subfile{parts/herleitungen}
+
+\subfile{parts/quantile_erwartungswerte_verteilungen}
 
 
 %\section{Einf\"uhrung}
@@ -44,10 +52,5 @@ so geht \ldots
 %\section{Fazit}\label{conclusions}
 %Nach langer Suche hat sich herausgestellt, dass es kein l\"angeres 
 %\LaTeX{} Beispiel, als das von \cite{doe} geschriebene gibt. 
-
-\begin{thebibliography}{9}
-\bibitem[Doe]{doe} \emph{Erstes und letztes \LaTeX{} Beispiel.},
-John Doe 50 v.Chr.  
-\end{thebibliography}
 
 \end{document}
