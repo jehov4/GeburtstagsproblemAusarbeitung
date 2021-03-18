@@ -1,3 +1,12 @@
-/main.synctex.gz
-/untitled-1.pdf
-/untitled-1.synctex.gz
+*.synctex.gz
+*.bbl
+*.blg
+*.toc
+*.xml
+*.put
+*.ist
+*.glo
+*.bcf
+*.aux
+*.acn
+*.log
