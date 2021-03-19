@@ -14,3 +14,15 @@
 \contentsline {subsection}{\numberline {2.4}Varianz}{5}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5}Quantile}{5}{subsection.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Konkrete Zahlen}{6}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Wahrscheinlichkeit der ersten Kollision}{7}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}$P(X \leq k)$}{7}{subsubsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2}$P(X = k)$}{8}{subsubsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Erwartungswerte}{8}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Quantile}{9}{subsection.3.3}%

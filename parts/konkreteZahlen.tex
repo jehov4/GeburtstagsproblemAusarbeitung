@@ -23,13 +23,15 @@ Mithilfe der Formel \ref{num.pleq} wird die Wahrscheinlichkeiten dafür berechne
 
 \begin{table}[h]
 \centering
-\begin{tabular}{l|l|l|l}
+\begin{tabular}{|l|l|l|l|}
+\hline
 k  & $P(X_{n}) \leq k)$ & k  & $P(X_{n}) \leq k)$ \\ \hline
 0  & 0,001            & 40 & 0,876            \\
 10 & 0,105            & 50 & 0,963            \\
 20 & 0,390            & 60 & 0,992            \\
-30 & 0,684            & 70 & 0,999
+30 & 0,684            & 70 & 0,999            \\ \hline
 \end{tabular}
+\caption{\label{num.tpe} Wahrscheinlichkeit für die 1. Kollision nach höhstens k Personen auf der Erde}
 \end{table}
 
 \begin{figure}[h]
@@ -37,7 +39,7 @@ k  & $P(X_{n}) \leq k)$ & k  & $P(X_{n}) \leq k)$ \\ \hline
  \includegraphics[width=0.7\textwidth]{../graphics/perde.png}
  % qerde.png: 1280x960 px, 72dpi, 45.16x33.87 cm, bb=0 0 1280 960
 \end{center}
-
+\caption{\label{num.fpe} Wahrscheinlichkeit für den 1. gleichen Geburtstag nach höchstens k Ziehungen}
 \end{figure}
 
 
@@ -45,26 +47,30 @@ k  & $P(X_{n}) \leq k)$ & k  & $P(X_{n}) \leq k)$ \\ \hline
 
 \begin{table}[h]
 \centering
-\begin{tabular}{l|l|l|l|}
+\begin{tabular}{|l|l|l|l|}
+\hline
 k  & $P(X_{n} \leq k)$ & k  & $P(X_{n} \leq k)$ \\ \hline
 0  & 0,001            & 60 & 0,893            \\
 15 & 0,118            & 75 & 0,970            \\
 30 & 0,417            & 90 & 0,994            \\
-45 & 0,711            &    &
+45 & 0,711            &    &                  \\ \hline
 \end{tabular}
+\caption{\label{num.tpm} Wahrscheinlichkeit für die 1. Kollision nach höhstens k Personen auf dem Mars}
 \end{table}
 
 \textbf{Jupiter}
 
 \begin{table}[h]
 \centering
-\begin{tabular}{l|l|l|l|}
+\begin{tabular}{|l|l|l|l|}
+\hline
 k  & $P(X_{n} \leq k)$ & k   & $P(X_{n} \leq k)$\\ \hline
 0  & 0                & 120 & 0,805            \\
 30 & 0,093            & 150 & 0,923            \\
 60 & 0,331            & 180 & 0,975            \\
-90 & 0,599            & 210 & 0,994
+90 & 0,599            & 210 & 0,994            \\ \hline
 \end{tabular}
+\caption{\label{num.tpj} Wahrscheinlichkeit für die 1. Kollision nach höhstens k Personen auf dem Jupiter}
 \end{table}
 
 \subsubsection{$P(X = k)$}
@@ -73,21 +79,28 @@ k  & $P(X_{n} \leq k)$ & k   & $P(X_{n} \leq k)$\\ \hline
 
 \begin{table}[h]
 \centering
-\begin{tabular}{l|l|l|l|l|l}
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
 k  & $P(X_{n} = k)$ & k  & $P(X_{n} = k)$ & k  & $P(X_{n} = k)$ \\ \hline
 5  & 0,011            & 25 & 0,030            & 45 & 0,009            \\
 10 & 0,022            & 30 & 0,025            & 50 & 0,005            \\
 15 & 0,029            & 35 & 0,019            & 55 & 0,003            \\
-20 & 0,032            & 40 & 0,013            & 60 & 0,001
+20 & 0,032            & 40 & 0,013            & 60 & 0,001      \\ \hline
 \end{tabular}
+\caption{\label{num.tpeqe} Wahrscheinlichkeit für die 1. Kollision bei der k. Person}
 \end{table}
 
+\begin{figure}[h]
 \begin{center}
  \includegraphics[width=0.7\textwidth]{../graphics/peq.png}
  % peq.png: 1280x960 px, 72dpi, 45.16x33.87 cm, bb=0 0 1280 960
 \end{center}
+\caption{\label{num.fpeqe} Wahrscheinlichkeit für die 1. Kollision bei der k. Person}
+\end{figure}
 
-Die höchste Wahrscheinlichkeit dafür, dass die 1. Kollision genau bei k auftritt liegt auf der Erde bei \bm{$\sim 20,105$}, auf dem Mars bei \bm{$\sim 28,928$} und auf dem Jupiter bei \bm{$\sim 66,803$} also jeweils bei \bm{$1 + \sqrt{n}$}.
+
+
+Die höchste Wahrscheinlichkeit dafür, dass die 1. Kollision genau bei k auftritt liegt auf der Erde bei \bm{$\sim 20,105$} (zu sehen auf Grafik \ref{num.fpeqe}), auf dem Mars bei \bm{$\sim 28,928$} und auf dem Jupiter bei \bm{$\sim 66,803$} also jeweils bei \bm{$1 + \sqrt{n}$}.
 
 \subsection{Erwartungswerte}
 
@@ -101,20 +114,33 @@ Der Erwartungswert für die 1. Kollision wird über die Formel \ref{num.exp} err
 Für die verschiedenen Planeten kommen dabei folgende Werte heraus:
 
 \begin{center}
-\begin{tabular}{l|l}
+\begin{tabular}{|l|l|}
+\hline
 Erde & 24,945\\ \hline
 Mars & 36,003\\ \hline
-Jupiter & 83,472
+Jupiter & 83,472 \\ \hline
 \end{tabular}
 \end{center}
 
 \subsection{Quantile}
 
-Die Quantile für die 1. Kollision werden über die Formel
+Die Quantile für die 1. Kollision werden über die Formel \ref{num.q} berechnet.
 
 \begin{equation}
- q_{\alpha} \approx 1 + \sqrt{-n ln(1-\alpha)}
+ q_{\alpha} \approx 1 + \sqrt{-n \cdot ln(1-\alpha)}
+ \label{num.q}
 \end{equation}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+$\alpha$      & $q_{\alpha}$ Erde & $q_{\alpha}$ Mars & $q_{\alpha}$ Jupiter \\ \hline
+$\frac{1}{4}$ & 15,492            & 22,185            & 50,913               \\
+$\frac{1}{2}$ & 23,494            & 33,883            & 78,477               \\
+$\frac{3}{4}$ & 32,812            & 47,504            & 110,569              \\ \hline
+\end{tabular}
+\end{table}
 
 
 
