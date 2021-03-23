@@ -64,6 +64,39 @@
       \endverb
       \keyw{Stochastik}
     \endentry
+    \entry{papula}{book}{}
+      \name{author}{1}{}{%
+        {{hash=48dc640b5644d5228b67820161c5df09}{%
+           family={Papula},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Vieweg+Teubner Verlag}%
+      }
+      \strng{namehash}{48dc640b5644d5228b67820161c5df09}
+      \strng{fullhash}{48dc640b5644d5228b67820161c5df09}
+      \strng{bibnamehash}{48dc640b5644d5228b67820161c5df09}
+      \strng{authorbibnamehash}{48dc640b5644d5228b67820161c5df09}
+      \strng{authornamehash}{48dc640b5644d5228b67820161c5df09}
+      \strng{authorfullhash}{48dc640b5644d5228b67820161c5df09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783834817495}
+      \field{series}{Viewegs Fachbücher der Technik}
+      \field{title}{Mathematik für Ingenieure und Naturwissenschaftler Band 1: Ein Lehr- und Arbeitsbuch für das Grundstudium}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb http://books.google.de/books?id=vTuCSeEal6AC
+      \endverb
+      \verb{url}
+      \verb http://books.google.de/books?id=vTuCSeEal6AC
+      \endverb
+      \keyw{ingenieure mathematik naturwissenschaftler papula}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
