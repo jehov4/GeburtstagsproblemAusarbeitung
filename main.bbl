@@ -97,6 +97,110 @@
       \endverb
       \keyw{ingenieure mathematik naturwissenschaftler papula}
     \endentry
+    \entry{petkovsek1996b}{book}{}
+      \name{author}{3}{}{%
+        {{hash=ebce314673389bc33dba7c11e9ea27f0}{%
+           family={Petkovsek},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c30afdec9b49ef1e5adce44ff5375d5b}{%
+           family={Wilf},
+           familyi={W\bibinitperiod},
+           given={H.S.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a23e2043d00f792fc9725078a59e2893}{%
+           family={Zeilberger},
+           familyi={Z\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{ee3c97bb8925b2e4dbec3ff9b1c7d835}
+      \strng{fullhash}{ee3c97bb8925b2e4dbec3ff9b1c7d835}
+      \strng{bibnamehash}{ee3c97bb8925b2e4dbec3ff9b1c7d835}
+      \strng{authorbibnamehash}{ee3c97bb8925b2e4dbec3ff9b1c7d835}
+      \strng{authornamehash}{ee3c97bb8925b2e4dbec3ff9b1c7d835}
+      \strng{authorfullhash}{ee3c97bb8925b2e4dbec3ff9b1c7d835}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781568810638}
+      \field{series}{Ak Peters Series}
+      \field{title}{A = B}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb https://books.google.de/books?id=A-pU8HQOWPMC
+      \endverb
+      \verb{url}
+      \verb https://books.google.de/books?id=A-pU8HQOWPMC
+      \endverb
+    \endentry
+    \entry{georgii}{book}{}
+      \name{author}{1}{}{%
+        {{hash=65364ad41efba6572141efa44e27a689}{%
+           family={Georgii},
+           familyi={G\bibinitperiod},
+           given={Hans-Otto},
+           giveni={H\bibinithyphendelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{65364ad41efba6572141efa44e27a689}
+      \strng{fullhash}{65364ad41efba6572141efa44e27a689}
+      \strng{bibnamehash}{65364ad41efba6572141efa44e27a689}
+      \strng{authorbibnamehash}{65364ad41efba6572141efa44e27a689}
+      \strng{authornamehash}{65364ad41efba6572141efa44e27a689}
+      \strng{authorfullhash}{65364ad41efba6572141efa44e27a689}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{isbn}{9783110182828,3110182823}
+      \field{title}{Stochastik: Einfuhrung in die Wahrscheinlichkeitstheorie und Statistik}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=7009183b057695484156204a7052a95c
+      \endverb
+      \verb{url}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=7009183b057695484156204a7052a95c
+      \endverb
+    \endentry
+    \entry{rinne}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ec8317a15ab9b47e1eacf21fc05589c1}{%
+           family={Rinne},
+           familyi={R\bibinitperiod},
+           given={Horst},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{ec8317a15ab9b47e1eacf21fc05589c1}
+      \strng{fullhash}{ec8317a15ab9b47e1eacf21fc05589c1}
+      \strng{bibnamehash}{ec8317a15ab9b47e1eacf21fc05589c1}
+      \strng{authorbibnamehash}{ec8317a15ab9b47e1eacf21fc05589c1}
+      \strng{authornamehash}{ec8317a15ab9b47e1eacf21fc05589c1}
+      \strng{authorfullhash}{ec8317a15ab9b47e1eacf21fc05589c1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{1420087436,9781420087437}
+      \field{title}{The Weibull Distribution: A Handbook}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=f7722d6a43d940f5c571559457f676c0
+      \endverb
+      \verb{url}
+      \verb http://gen.lib.rus.ec/book/index.php?md5=f7722d6a43d940f5c571559457f676c0
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

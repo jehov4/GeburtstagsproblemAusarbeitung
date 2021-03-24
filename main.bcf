@@ -2350,6 +2350,15 @@
   <bcf:section number="0">
     <bcf:citekey order="1">henze</bcf:citekey>
     <bcf:citekey order="2">papula</bcf:citekey>
+    <bcf:citekey order="3">papula</bcf:citekey>
+    <bcf:citekey order="4">petkovsek1996b</bcf:citekey>
+    <bcf:citekey order="5">henze</bcf:citekey>
+    <bcf:citekey order="6">georgii</bcf:citekey>
+    <bcf:citekey order="7">rinne</bcf:citekey>
+    <bcf:citekey order="8">rinne</bcf:citekey>
+    <bcf:citekey order="9">rinne</bcf:citekey>
+    <bcf:citekey order="10">rinne</bcf:citekey>
+    <bcf:citekey order="11">henze</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

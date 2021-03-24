@@ -1,15 +1,18 @@
 [1] Config.pm:311> INFO - This is Biber 2.16
-[2] Config.pm:314> INFO - Logfile is 'main.blg'
-[320] biber-MSWIN64:340> INFO - === 
-[404] Biber.pm:415> INFO - Reading 'main.bcf'
-[798] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
-[855] Biber.pm:4340> INFO - Processing section 0
-[888] Biber.pm:4531> INFO - Looking for bibtex format file 'main.bib' for section 0
-[1039] bibtex.pm:1689> INFO - LaTeX decoding ...
-[1075] bibtex.pm:1494> INFO - Found BibTeX data source 'main.bib'
-[1223] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1224] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1224] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[1224] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
-[1240] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1242] bbl.pm:757> INFO - Output to main.bbl
+[1] Config.pm:314> INFO - Logfile is 'main.blg'
+[107] biber:340> INFO - === Mi Mär 24, 2021, 14:31:33
+[128] Biber.pm:415> INFO - Reading 'main.bcf'
+[221] Biber.pm:952> INFO - Found 5 citekeys in bib section 0
+[240] Biber.pm:4340> INFO - Processing section 0
+[256] Biber.pm:4531> INFO - Looking for bibtex format file 'main.bib' for section 0
+[257] bibtex.pm:1689> INFO - LaTeX decoding ...
+[278] bibtex.pm:1494> INFO - Found BibTeX data source 'main.bib'
+[386] Utils.pm:395> WARN - ISBN '9783110182828,3110182823' in entry 'georgii' is invalid - run biber with '--validate_datamodel' for details.
+[395] Utils.pm:395> WARN - ISBN '1420087436,9781420087437' in entry 'rinne' is invalid - run biber with '--validate_datamodel' for details.
+[412] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[412] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[413] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[413] Biber.pm:4174> INFO - No sort tailoring available for locale 'de-DE'
+[424] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[429] bbl.pm:757> INFO - Output to main.bbl
+[429] Biber.pm:128> INFO - WARNINGS: 2
