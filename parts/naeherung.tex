@@ -19,13 +19,22 @@
     \newline
     Zur Modellierung des Kollisionsphänomens betrachten wir die Zufallsvariable
     \newline
-    \[{ X_{n} = \text{ Zeitpunkt der ersten Kollision beim sukzessiven rein zufälligen Besetzen von n Tagen. } }\]
+    \[{ X_{n} = \text{ Zeitpunkt der ersten Kollision beim sukzessiven \newline rein zufälligen Besetzen von n Tagen. } }\]
     \newline
-    Da mindestens \(2\) und höchstens \(n + 1\) Versuche bis zur ersten Kollision nötig sind, nimmt Xn die Werte 2,3, . . ., n + 1 an, und es gilt P (Xn ≥ k + 1) = n · (n − 1) · (n − 2) · ... · (n − k + 1) nk = nk nk
+    Da mindestens \(2\) und höchstens \(n + 1\) Versuche bis zur ersten Kollision nötig sind, nimmt \(X_n\) die Werte \(2,3, . . ., n + 1\) an, und es gilt
+
     \newline\newline
+    \[P(X_{n} \geq k+1) = \frac {n*(n-1)*(n-2)* ... * (n-k + 1)}{n^k} = \frac{n^{\underline{\ k}}}{n^k}\]
+    \newline\newline
+    für jedes \(k = 1,2,...,n+1\).
+    \newline
     Daraus folgt das Gegenereignis
     \newline\newline
-    \(P (X_{n} ≤ k)=1 − k −1 j=1 1 − j n \)
+    \[P(X_{n} \leq k) = 1-\prod \limits_{j=1}^{k-1}(1- \frac{j}{n})\]
+
+    \newline
+
+    \[(k=2,3,...,n+1; P(X_n\leq1) = 0)\]
     \newline
     Die Formel zeigt die Wahrscheinlichkeiten \(P(X_{n} \leq k)\) als Funktion von \(k\) für den Fall \(n = 365\).
     Für das Ereignis \({X_{n} \leq 23}\) gilt\( P(X_{n} \leq 23) = 0,5073 \)

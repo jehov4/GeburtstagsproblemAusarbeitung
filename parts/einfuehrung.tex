@@ -1,14 +1,16 @@
- % !TeX root = ../main.tex
+% !TeX root = ../main.tex
 \documentclass[../main.tex]{subfiles}
 \begin{document}
-\section{Einführung}
+\section{Berechnung}
 
-Das Geburtstagsproblem generiert eine Warschleinlichket das unter k zufällig gewählten Personen mindestens zwei am selben Tag geburtstag haben. Es ist eine Abwandlung des Paradoxons der ersten Kollision. \cite{henze} Bei k=23 ist die warscheinlickteit das zwei personen bereits am gleichen tag geburtsagt haben bei über 50\%. Das ist erstaunlich stochastisch weniger bewanderte personen
-fürden stehts subjektiv zu einer sehr viel geringeren warscheinlichkeit kommen. In der folgenden ausarbeotung wrrden wir auf die näherung für das paradoxon eingehen sowie quanitle und den erwartungswert.
+Das Geburtstagsproblem generiert eine Wahrscheinlichkeit das unter \(k\) zufällig gewählten Personen mindestens zwei am
+selben Tag Geburtstag haben. Es ist eine Abwandlung des Paradoxons der ersten Kollision. \cite{henze} Bei \(k=23\) ist die
+Wahrscheinlichkeit das zwei Personen bereits am gleichen Tag Geburtstag haben bei über 50\%. Das ist gerade für
+stochastisch weniger bewanderte Personen erstaunlich, denn diese vermuten eine sehr viel geringere Wahrscheinlichkeit,
+da sie das Problem auf ihr Umfeld assoziieren.
 
-das an irgendeinem Tag im Jahr irgendeine der k personen
-
-zuerst bestimmen wir n. Das ist die warscheinlichkeit das eine person an einem bestimmten Tag der jahren geburtstag hat. Das gewählte Jahr besitzt 365 Tage (Auf Schaltjahre wird nicht nachgegangen). Außerdem gehen wir von gleich gewichteten Tagen aus.
+Zuerst bestimmen wir \(n\). Das ist die Wahrscheinlichkeit das eine Person an einem bestimmten Tag der Jahren Geburtstag hat.
+Das gewählte Jahr besitzt die Eigenschaften unserer Annahmen.
 
 Daraus ergibt sich:
 
@@ -16,7 +18,7 @@ Daraus ergibt sich:
 n = \frac{1}{365}
 \end{equation}
 
-Um auszurechnen, wie viele Personen sich in einem Raum befinden müssen, so dass die Wahrscheinlichkeit dass mindestens zwei Personen am selben Tag Geburtstag haben bei 50\% oder meht liegt verwenden wir das Gegenereignis. Wir berechnen die Wahrscheinlichkeit, dass alle Personen im Raum an verschiedenen Tagen Geburtstag haben und nähern uns den von oben den 50\%
+Um auszurechnen, wie viele Personen sich in einem Raum befinden müssen, so dass die Wahrscheinlichkeit, dass mindestens zwei Personen am selben Tag Geburtstag haben bei 50\% oder mehr liegt verwenden wir das Gegenereignis. Wir berechnen die Wahrscheinlichkeit, dass alle Personen im Raum an verschiedenen Tagen Geburtstag haben und nähern uns den von oben den 50\%
 
 Für 2 Personen:
 
@@ -24,7 +26,7 @@ Für 2 Personen:
  \frac{365}{365} * \frac{364}{365} = 0,997
 \end{equation}
 
-Die erste Person kann aus 365 Tagen wählen ohne dass es zu einer Kollision kommt, für die 2. Person bleiben 364 Tage
+Die erste Person kann aus 365 Tagen wählen ohne das es zu einer Kollision kommt, für die 2. Person bleiben 364 Tage
 
 Für 3 Personen:
 
@@ -47,4 +49,3 @@ Die Wahrscheinlichkeit für keine Kollision liegt bei 0,493, somit liegt die Wah
 
 
 \end{document}
-
