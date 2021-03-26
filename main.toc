@@ -1,28 +1,38 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Einführung}{1}{section.1}%
+\contentsline {section}{\numberline {1}Berechnung}{1}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Herleitungen der verwendeten Formeln}{2}{section.2}%
+\contentsline {section}{\numberline {2}Annahmen}{2}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Vereinfachung der Wahrscheinlichkeitsverteilung}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Gleichverteilung:}{2}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Wahrscheinlichkeitsdichte}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {4}La Place:}{2}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Erwartungswert}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {5}Gaußsche Summenformel: }{3}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Varianz}{4}{subsection.2.4}%
+\contentsline {section}{\numberline {6}Herleitungen der verwendeten Formeln}{3}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Quantile}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {6.1}Vereinfachung der Wahrscheinlichkeitsverteilung}{4}{subsection.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Konkrete Zahlen}{6}{section.3}%
+\contentsline {subsection}{\numberline {6.2}Wahrscheinlichkeitsdichte}{4}{subsection.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Wahrscheinlichkeit der ersten Kollision}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {6.3}Erwartungswert}{5}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}$P(X \leq k)$}{7}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {6.4}Varianz}{6}{subsection.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}$P(X = k)$}{7}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {6.5}Quantile}{6}{subsection.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Erwartungswerte}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {7}Näherung}{8}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Quantile}{8}{subsection.3.3}%
+\contentsline {section}{\numberline {8}Konkrete Zahlen}{9}{section.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1}Wahrscheinlichkeit der ersten Kollision}{9}{subsection.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.1.1}$P(X \leq k)$}{9}{subsubsection.8.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.1.2}$P(X = k)$}{10}{subsubsection.8.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2}Erwartungswerte}{10}{subsection.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3}Quantile}{10}{subsection.8.3}%

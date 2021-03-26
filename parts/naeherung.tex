@@ -10,7 +10,7 @@
 % Document
 \begin{document}
     \section{Näherung}
-    \newline
+
     Das offenbar spektakuläre Ereignis besteht scheinbar darin, dass bei der schrittweisen rein zufälligen Belegung
     von \(n\) = 365 unterschiedlichen Tagen die erste Kollision bereits nach dem 23. Tag stattfand, d.h. ein bereits
     durch einen Geburtstag belegter Tag wurde erneut belegt. Intuitiv würde man erwarten, dass der Zeitpunkt dieser
@@ -23,7 +23,7 @@
     \newline
     Da mindestens \(2\) und höchstens \(n + 1\) Versuche bis zur ersten Kollision nötig sind, nimmt \(X_n\) die Werte \(2,3, . . ., n + 1\) an, und es gilt
 
-    \newline\newline
+
     \[P(X_{n} \geq k+1) = \frac {n*(n-1)*(n-2)* ... * (n-k + 1)}{n^k} = \frac{n^{\underline{\ k}}}{n^k}\]
     \newline\newline
     für jedes \(k = 1,2,...,n+1\).
@@ -31,8 +31,6 @@
     Daraus folgt das Gegenereignis
     \newline\newline
     \[P(X_{n} \leq k) = 1-\prod \limits_{j=1}^{k-1}(1- \frac{j}{n})\]
-
-    \newline
 
     \[(k=2,3,...,n+1; P(X_n\leq1) = 0)\]
     \newline
