@@ -116,6 +116,7 @@ Für die verschiedenen Planeten kommen dabei folgende Werte heraus:
 \begin{center}
 \begin{tabular}{|l|l|}
 \hline
+\textbf{Planet} & \textbf{Erwartungswert}\hline
 Erde & 24,945\\ \hline
 Mars & 36,003\\ \hline
 Jupiter & 83,472 \\ \hline
@@ -127,7 +128,7 @@ Jupiter & 83,472 \\ \hline
 Die Quantile für die erste Kollision werden über die Formel \ref{num.q} berechnet.
 
 \begin{equation}
- q_{\alpha} \approx 1 + \sqrt{-n \cdot ln(1-\alpha)}
+ q_{\alpha} \approx 1 + \sqrt{2n \cdot ln(1-\alpha)}
  \label{num.q}
 \end{equation}
 
