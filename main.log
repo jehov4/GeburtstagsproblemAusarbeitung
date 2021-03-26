@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.3.17)  24 MAR 2021 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.22)  26 MAR 2021 10:14
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> xparse <2020-03-03>
-(/home/liam/.miktex/texmfs/install/tex/latex/base/article.cls
+(P:\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(/home/liam/.miktex/texmfs/install/tex/latex/base/size10.clo
+(P:\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count179
@@ -20,40 +20,39 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-)
-(etc/packages.sty
-(/home/liam/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+) (etc/packages.sty
+(P:\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/parskip/parskip.sty
-Package: parskip 2021-03-02 v2.0g non-zero parskip adjustments
+(P:\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
-(/home/liam/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+(P:\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+(P:\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+(P:\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
+(P:\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+(P:\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count187
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+(P:\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+(P:\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/latex-tools/multicol.sty
+(P:\MiKTeX\tex/latex/latex-tools\multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count188
 \mult@box=\box47
@@ -123,33 +122,32 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \colbreak@box=\box92
 \mc@col@check@num=\count197
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
+(P:\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+(P:\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+(P:\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+(P:\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+(P:\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+(P:\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+(P:\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(/home/liam/.miktex/texmfs/install/tex/latex/float/float.sty
+) (P:\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count198
 \float@exts=\toks18
@@ -157,13 +155,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box94
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+(P:\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/home/liam/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+(P:\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/home/liam/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+ (P:\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count199
@@ -178,13 +175,12 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen156
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks20
-
-(/home/liam/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg)
+ (P:\MiKTeX\tex/latex/geometry\geometry.cfg)
 
 Package geometry Warning: Over-specification in `h'-direction.
     `width' (426.79134pt) is ignored.
 
-) (/home/liam/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+) (P:\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip51
@@ -197,14 +193,14 @@ rs
 \f@nch@O@olf=\skip58
 \f@nch@O@orf=\skip59
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/acronym/acronym.sty
+(P:\MiKTeX\tex/latex/acronym\acronym.sty
 Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/bigfoot/suffix.sty
+(P:\MiKTeX\tex/latex/bigfoot\suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
-(/home/liam/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
+(P:\MiKTeX\tex/latex/xstring\xstring.sty
+(P:\MiKTeX\tex/generic/xstring\xstring.tex
 \integerpart=\count268
 \decimalpart=\count269
 )
@@ -212,27 +208,24 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 \AC@clearlist=\toks21
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/biblatex.sty
+(P:\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+(P:\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/logreq/logreq.sty
+(P:\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count270
-
-(/home/liam/.miktex/texmfs/install/tex/latex/logreq/logreq.def
+ (P:\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/home/liam/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+)) (P:\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/home/liam/.miktex/texmfs/install/tex/latex/url/url.sty
+) (P:\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -288,14 +281,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip67
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language1
+\blx@langwohyphens=\language79
 \c@mincomprange=\count313
 \c@maxcomprange=\count314
 \c@mincompwidth=\count315
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/blx-dm.def
+(P:\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -387,13 +380,13 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/blx-compat.def
+(P:\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/biblatex.def
+(P:\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 \c@textcitecount=\count384
 \c@textcitetotal=\count385
@@ -412,22 +405,22 @@ File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex-ieee/ieee.bbx
+(P:\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
 File: ieee.bbx 2020/12/29 v1.3d biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric-comp.bbx
+(P:\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
 File: numeric-comp.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/bbx/numeric.bbx
+(P:\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
 File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/bbx/standard.bbx
+(P:\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count393
 \c@bbx:relatedtotal=\count394
@@ -435,12 +428,12 @@ File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex-ieee/ieee.cbx
+(P:\MiKTeX\tex/latex/biblatex-ieee\ieee.cbx
 File: ieee.cbx 2020/12/29 v1.3d biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/cbx/numeric-comp.cbx
+(P:\MiKTeX\tex/latex/biblatex/cbx\numeric-comp.cbx
 File: numeric-comp.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
 \c@cbx@tempcnta=\count395
 \c@cbx@tempcntb=\count396
@@ -464,14 +457,13 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/biblatex.cfg
+(P:\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/dirtree/dirtree.sty
+(P:\MiKTeX\tex/latex/dirtree\dirtree.sty
 Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 
-(/home/liam/.miktex/texmfs/install/tex/generic/dirtree/dirtree.tex
-`dirtree' v0.32, 2012/12/11 (jcc)
+(P:\MiKTeX\tex/generic/dirtree\dirtree.tex `dirtree' v0.32, 2012/12/11 (jcc)
 \DT@offset=\dimen158
 \DT@width=\dimen159
 \DT@sep=\dimen160
@@ -489,32 +481,32 @@ Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 )
 File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/csvsimple/csvsimple.sty
+(P:\MiKTeX\tex/latex/csvsimple\csvsimple.sty
 Package: csvsimple 2019/04/09 version 1.21 LaTeX CSV file processing
 
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.tex
+(P:\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(P:\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks22
 \pgfutil@tempdima=\dimen168
 \pgfutil@tempdimb=\dimen169
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-lis
-ts.tex))
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.def
+(P:\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
+(P:\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box95
-) (/home/liam/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+)
+(P:\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
+(P:\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+(P:\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(P:\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks23
 \pgfkeys@temptoks=\toks24
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered.co
-de.tex
+(P:\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks25
-))) (/home/liam/.miktex/texmfs/install/tex/latex/latex-tools/shellesc.sty
+)))
+(P:\MiKTeX\tex/latex/latex-tools\shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
@@ -523,7 +515,8 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 \c@csvrow=\count404
 \c@csvcol=\count405
 \csv@out=\write4
-) (/home/liam/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
+)
+(P:\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box96
 \beforetitleunit=\skip82
@@ -535,43 +528,43 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen173
 \titlewidthfirst=\dimen174
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/latex-tools/verbatim.sty
+(P:\MiKTeX\tex/latex/latex-tools\verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks27
 \verbatim@line=\toks28
 \verbatim@in@stream=\read4
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.sty
-(/home/liam/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+(P:\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+(P:\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
 
-(/home/liam/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
+(P:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count406
 \l__pdf_internal_box=\box97
 ))
 Package: xparse 2020-10-27 L3 Experimental document command parser
 
-(/home/liam/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse-generic.t
-ex)) (/home/liam/.miktex/texmfs/install/tex/latex/todonotes/todonotes.sty
+(P:\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex))
+(P:\MiKTeX\tex/latex/todonotes\todonotes.sty
 Package: todonotes 2020/08/18 v1.1.3 Todonotes source and documentation.
 Package: todonotes 2018/11/22
 
-(/home/liam/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+(P:\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
-(/home/liam/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+(P:\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(P:\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks29
 \XKV@tempa@toks=\toks30
 )
 \XKV@depth=\count407
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+(P:\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+(P:\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -585,16 +578,16 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(P:\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(P:\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(P:\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(P:\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(P:\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex)
+(P:\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)
 \pgf@x=\dimen175
 \pgf@y=\dimen176
 \pgf@xa=\dimen177
@@ -616,36 +609,32 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 \t@pgf@tokc=\toks33
 \pgf@sys@id@count=\count412
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+(P:\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex.de
-f
+(P:\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common-pd
-f.def
+(P:\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath.c
-ode.tex
+(P:\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfsyssoftpath@smallbuffer@items=\count413
 \pgfsyssoftpath@bigbuffer@items=\count414
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol.c
-ode.tex
+(P:\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.tex
+(P:\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen185
 \pgfmath@count=\count415
 \pgfmath@box=\box98
@@ -653,29 +642,20 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 \pgfmath@stack@operand=\toks35
 \pgfmath@stack@operation=\toks36
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.code.t
-ex
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.basic.
-code.tex)
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.trigon
-ometric.code.tex)
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.random
-.code.tex)
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.compar
-ison.code.tex)
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.base.c
-ode.tex)
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.round.
-code.tex)
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.misc.c
-ode.tex)
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.intege
-rarithmetics.code.tex)))
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.tex
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex)
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex)))
+(P:\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count416
-)) (/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.cod
-e.tex
+))
+(P:\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@picminx=\dimen186
 \pgf@picmaxx=\dimen187
@@ -692,124 +672,102 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@zx=\dimen198
 \pgf@zy=\dimen199
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathconstr
-uct.code.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@path@lastx=\dimen256
 \pgf@path@lasty=\dimen257
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusage.
-code.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@shorten@end@additional=\dimen258
 \pgf@shorten@start@additional=\dimen259
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.cod
-e.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box99
 \pgf@hbox=\box100
 \pgf@layerbox@main=\box101
 \pgf@picture@serial@count=\count417
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphicsta
-te.code.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgflinewidth=\dimen260
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransforma
-tions.code.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@pt@x=\dimen261
 \pgf@pt@y=\dimen262
 \pgf@pt@temp=\dimen263
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.code
-.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects.co
-de.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathproces
-sing.code.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.cod
-e.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowsep=\dimen264
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.code
-.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen265
 \pgf@sys@shading@range@num=\count418
 \pgf@shadingcount=\count419
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.code
-.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexternal.c
-ode.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfexternal@startupbox=\box102
 ))
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.cod
-e.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransparen
-cy.code.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatterns.c
-ode.tex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.code.t
-ex
+(P:\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.code
-.tex
+(P:\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfnodeparttextbox=\box103
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.code.t
-ex
+(P:\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-
-0-65.sty
+(P:\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@nodesepstart=\dimen266
 \pgf@nodesepend=\dimen267
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version-
-1-18.sty
+(P:\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
-(/home/liam/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+(P:\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(P:\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(P:\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+(P:\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+(P:\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
 \pgffor@iter=\dimen268
 \pgffor@skip=\dimen269
 \pgffor@stack=\toks37
 \pgffor@toks=\toks38
 ))
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.code
-.tex
+(P:\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplothand
-lers.code.tex
+(P:\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@plot@mark@count=\count420
 \pgfplotmarksize=\dimen270
@@ -831,8 +789,7 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikznumberofcurrentchild=\count423
 \tikz@fig@count=\count424
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.code
-.tex
+(P:\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfmatrixcurrentrow=\count425
 \pgfmatrixcurrentcolumn=\count426
@@ -840,26 +797,25 @@ File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 \tikz@expandcount=\count428
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarytopaths.code.tex
+(P:\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code
+.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibrarypositioning.code.tex
+(P:\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.
+code.tex
 File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibraryshadows.code.tex
+(P:\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshadows.code
+.tex
 File: tikzlibraryshadows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libraries
-/tikzlibraryfadings.code.tex
+(P:\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code
+.tex
 File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-
-(/home/liam/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryfadings.
-code.tex
+ (P:\MiKTeX\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (/home/liam/.miktex/texmfs/install/tex/latex/latex-tools/calc.sty
+)))
+(P:\MiKTeX\tex/latex/latex-tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count429
 \calc@Bcount=\count430
@@ -873,41 +829,40 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip86
 )
 \c@@todonotes@numberoftodonotes=\count432
-) (/home/liam/.miktex/texmfs/install/tex/latex/glossaries/base/glossaries.sty
+)
+(P:\MiKTeX\tex/latex/glossaries/base\glossaries.sty
 Package: glossaries 2020/03/19 v4.46 (NLCT)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/mfirstuc/mfirstuc.sty
+(P:\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 \@glsmfirst=\toks39
 \@glsmrest=\toks40
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/textcase/textcase.sty
+(P:\MiKTeX\tex/latex/textcase\textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
-)
-(/home/liam/.miktex/texmfs/install/tex/latex/xfor/xfor.sty
+) (P:\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-)
-(/home/liam/.miktex/texmfs/install/tex/latex/datatool/datatool-base.sty
+) (P:\MiKTeX\tex/latex/datatool\datatool-base.sty
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+(P:\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip87
 
 For additional information on amsmath, use the `?' option.
-(/home/liam/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+(P:\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/home/liam/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+(P:\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks41
 \ex@=\dimen281
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+(P:\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen282
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+(P:\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count433
@@ -948,22 +903,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/substr/substr.sty
+(P:\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count445
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/datatool/datatool-fp.sty
+(P:\MiKTeX\tex/latex/datatool\datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
-
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp.sty
+ (P:\MiKTeX\tex/latex/fp\fp.sty
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/defpattern.sty
+(P:\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
 \actioncount=\count446
-)
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-basic.sty
+) (P:\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
 \FP@xs=\count447
 \FP@xia=\count448
@@ -975,32 +928,28 @@ Package: fp-basic 1996/05/13
 \FP@regs=\count454
 \FP@times=\count455
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-addons.sty
+(P:\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
-)
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-snap.sty
+) (P:\MiKTeX\tex/latex/fp\fp-snap.sty
 Package: fp-snap 1995/04/05
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-exp.sty
+(P:\MiKTeX\tex/latex/fp\fp-exp.sty
 Package: fp-exp 1995/04/03
-)
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-trigo.sty
+) (P:\MiKTeX\tex/latex/fp\fp-trigo.sty
 Package: fp-trigo 1995/04/14
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-pas.sty
+(P:\MiKTeX\tex/latex/fp\fp-pas.sty
 Package: fp-pas 1994/08/29
-)
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-random.sty
+) (P:\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
 \FPseed=\count456
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-eqn.sty
+(P:\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
-)
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-upn.sty
+) (P:\MiKTeX\tex/latex/fp\fp-upn.sty
 Package: fp-upn 1996/10/21
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/fp/fp-eval.sty
+(P:\MiKTeX\tex/latex/fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks46
@@ -1013,8 +962,7 @@ Package: fp-eval 1995/04/03
 \dtl@codeB=\count462
 \@dtl@foreach@level=\count463
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/glossaries/base/glossaries-compati
-ble-307.sty
+(P:\MiKTeX\tex/latex/glossaries/base\glossaries-compatible-307.sty
 Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
 )
 \gls@level=\count464
@@ -1025,19 +973,17 @@ Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
 \glsshorttok=\toks50
 \glslongtok=\toks51
 
-(/home/liam/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-hyperna
-v.sty
+(P:\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
 Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-list.st
-y
+(P:\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
 Package: glossary-list 2020/03/19 v4.46 (NLCT)
 \glslistdottedwidth=\skip92
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-long.st
-y
+(P:\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
 Package: glossary-long 2020/03/19 v4.46 (NLCT)
- (/home/liam/.miktex/texmfs/install/tex/latex/latex-tools/longtable.sty
+
+(P:\MiKTeX\tex/latex/latex-tools\longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip93
 \LTright=\skip94
@@ -1058,10 +1004,10 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \glsdescwidth=\skip97
 \glspagelistwidth=\skip98
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-super.s
-ty
+(P:\MiKTeX\tex/latex/glossaries/styles\glossary-super.sty
 Package: glossary-super 2020/03/19 v4.46 (NLCT)
- (/home/liam/.miktex/texmfs/install/tex/latex/supertabular/supertabular.sty
+
+(P:\MiKTeX\tex/latex/supertabular\supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count470
 \ST@wd=\dimen291
@@ -1079,11 +1025,11 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \ST@dimen=\dimen300
 \ST@pbox=\box114
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/glossaries/styles/glossary-tree.st
-y
+(P:\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
 Package: glossary-tree 2020/03/19 v4.46 (NLCT)
 \glstreeindent=\skip102
-)) (/home/liam/.miktex/texmfs/install/tex/latex/listings/listings.sty
+))
+(P:\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count471
 \lst@gtempboxa=\box115
 \lst@token=\toks53
@@ -1097,21 +1043,21 @@ Package: glossary-tree 2020/03/19 v4.46 (NLCT)
 \lst@lineno=\count476
 \lst@maxwidth=\dimen304
 
-(/home/liam/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+(P:\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count477
 \lst@skipnumbers=\count478
 \lst@framebox=\box116
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+(P:\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+(P:\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/datatool/datatool.sty
+(P:\MiKTeX\tex/latex/datatool\datatool.sty
 Package: datatool 2019/09/27 v2.32 (NLCT)
 \dtlcolumnnum=\count479
 \dtlrownum=\count480
@@ -1149,13 +1095,13 @@ Package: datatool 2019/09/27 v2.32 (NLCT)
 \dtl@entrycr=\count490
 \dtl@omitlines=\count491
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+(P:\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/caption/caption.sty
+(P:\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+(P:\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen305
 \captionmargin@=\dimen306
@@ -1172,7 +1118,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/caption/ltcaption.sty
+(P:\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
@@ -1180,37 +1126,37 @@ Package caption Info: supertabular package is loaded.
 \c@subfigure=\count494
 \c@subtable=\count495
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/scrhack.sty
+(P:\MiKTeX\tex/latex/koma-script\scrhack.sty
 Package: scrhack 2020/09/21 v3.32 KOMA-Script package (hacking other packages)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/scrkbase.sty
+(P:\MiKTeX\tex/latex/koma-script\scrkbase.sty
 Package: scrkbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/scrbase.sty
+(P:\MiKTeX\tex/latex/koma-script\scrbase.sty
 Package: scrbase 2020/09/21 v3.32 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
+(P:\MiKTeX\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2020/09/21 v3.32 KOMA-Script package (file load hooks)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
+(P:\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
 Package: scrlfile-hook 2020/09/21 v3.32 KOMA-Script package (using LaTeX hooks)
 
 
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
+(P:\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2020/09/21 v3.32 KOMA-Script package (logo)
 )))))
-(/home/liam/.miktex/texmfs/install/tex/latex/xpatch/xpatch.sty
+(P:\MiKTeX\tex/latex/xpatch\xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )
 Package scrhack Info: loading float hack on input line 169.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/float.hak
+(P:\MiKTeX\tex/latex/koma-script\float.hak
 File: float.hak 2020/09/21 v3.32 KOMA-Script scrhack part (hacking package floa
 t)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/tocbasic.sty
+(P:\MiKTeX\tex/latex/koma-script\tocbasic.sty
 Package: tocbasic 2020/09/21 v3.32 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip103
 \scr@dte@tocline@numbox=\box117
@@ -1221,7 +1167,7 @@ Package scrhack Info: undefining \float@addtolists on input line 163.
 )
 Package scrhack Info: loading listings hack on input line 183.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/listings.hak
+(P:\MiKTeX\tex/latex/koma-script\listings.hak
 File: listings.hak 2020/09/21 v3.32 KOMA-Script scrhack part (hacking package l
 istings)
 Package tocbasic Info: babel extension for `lol' omitted
@@ -1230,11 +1176,11 @@ Package scrhack Info: redefining \lstlistoflistings on input line 143.
 )
 Package scrhack Info: loading setspace hack on input line 197.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/koma-script/setspace.hak
+(P:\MiKTeX\tex/latex/koma-script\setspace.hak
 File: setspace.hak 2020/09/21 v3.32 KOMA-Script scrhack part (hacking package s
 etspace)
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/csquotes/csquotes.sty
+(P:\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@reset=\count496
 \csq@gtype=\count497
@@ -1244,19 +1190,19 @@ Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@tshold=\count501
 \csq@ltx@everypar=\toks74
 
-(/home/liam/.miktex/texmfs/install/tex/latex/csquotes/csquotes.def
+(P:\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/csquotes/csquotes.cfg
+(P:\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/tabulary/tabulary.sty
+(P:\MiKTeX\tex/latex/tabulary\tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/latex-tools/array.sty
+(P:\MiKTeX\tex/latex/latex-tools\array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen312
 \ar@mcellbox=\box118
@@ -1272,16 +1218,15 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \tymax=\dimen316
 \TY@tablewidth=\dimen317
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2021/03/03 3.55 The Babel package
-
-(/home/liam/.miktex/texmfs/install/tex/generic/babel/babel.def
-File: babel.def 2021/03/03 3.55 Babel common definitions
+(P:\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/01/26 3.53 The Babel package
+ (P:\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
 \babel@savecnt=\count503
 \U@D=\dimen318
-\l@babelnohyphens=\language2
+\l@babelnohyphens=\language80
 
-(/home/liam/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+(P:\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read7
 )
 \bbl@dirlevel=\count504
@@ -1289,34 +1234,32 @@ File: babel.def 2021/03/03 3.55 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-(/home/liam/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+(P:\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
+(P:\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/babel-german/ngerman.ldf
+(P:\MiKTeX\tex/latex/babel-german\ngerman.ldf
 Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
 phy)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/babel-german/ngermanb.ldf
+(P:\MiKTeX\tex/latex/babel-german\ngermanb.ldf
 Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
 aphy)
-
-
-Package babel Warning: No hyphenation patterns were preloaded for
-(babel)                the language `German (new orthography)' into the format.
-
-(babel)                Please, configure your TeX system to add them and
-(babel)                rebuild the format. Now I will use the patterns
-(babel)                preloaded for \language=0 instead on input line 48.
-
 Package babel Info: Making " an active character on input line 122.
-))) (/home/liam/.miktex/texmfs/install/tex/latex/mathtools/mathtools.sty
+)))
+(P:\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 
-(/home/liam/.miktex/texmfs/install/tex/latex/mathtools/mhsetup.sty
+(P:\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
@@ -1335,10 +1278,10 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \xmathstrut@box=\box120
 \xmathstrut@dim=\dimen326
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+(P:\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/home/liam/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+(P:\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -1346,46 +1289,47 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/home/liam/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+(P:\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
 
-(/home/liam/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(P:\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
+(P:\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+(P:\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+(P:\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+(P:\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen327
 \Hy@linkcounter=\count506
 \Hy@pagecounter=\count507
 
-(/home/liam/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+(P:\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/hyperref/hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+(P:\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
 nguages
-) (/home/liam/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+)
+(P:\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/home/liam/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+(P:\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count508
 
-(/home/liam/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+(P:\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -1401,10 +1345,10 @@ Package hyperref Info: Bookmarks ON on input line 4445.
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen328
 
-(/home/liam/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+(P:\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+(P:\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -1421,7 +1365,7 @@ Package hyperref Info: PDF/A mode OFF on input line 6105.
 LaTeX Info: Redefining \ref on input line 6145.
 LaTeX Info: Redefining \pageref on input line 6149.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+(P:\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
@@ -1435,10 +1379,10 @@ Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             need that hack, on input line 100.
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+(P:\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
 
-(/home/liam/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+(P:\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
@@ -1446,18 +1390,19 @@ with kernel methods
 \Fld@listcount=\count514
 \c@bookmark@seq@number=\count515
 
-(/home/liam/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(P:\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/home/liam/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
+(P:\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip107
-) (/home/liam/.miktex/texmfs/install/tex/latex/breakcites/breakcites.sty)
-(/home/liam/.miktex/texmfs/install/tex/latex/latex-tools/bm.sty
+)
+(P:\MiKTeX\tex/latex/breakcites\breakcites.sty)
+(P:\MiKTeX\tex/latex/latex-tools\bm.sty
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -1465,10 +1410,10 @@ Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 209.
 )
-(/home/liam/.miktex/texmfs/install/tex/latex/subfiles/subfiles.sty
+(P:\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 
-(/home/liam/.miktex/texmfs/install/tex/latex/import/import.sty
+(P:\MiKTeX\tex/latex/import\import.sty
 Package: import 2020/04/01  v 6.2
 )))
 \glswrite=\write7
@@ -1507,7 +1452,7 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 
-(/home/liam/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+(P:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count516
 \scratchdimen=\dimen331
@@ -1520,7 +1465,7 @@ LaTeX Font Info:    ... okay on input line 12.
 \MPnumerator=\count520
 \makeMPintoPDFobject=\count521
 \everyMPtoPDFconversion=\toks77
-) (/home/liam/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (P:\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -1561,24 +1506,24 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/lbx/ngerman.lbx
+(P:\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
 File: ngerman.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/lbx/german.lbx
+(P:\MiKTeX\tex/latex/biblatex/lbx\german.lbx
 File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/lbx/german.lbx
+(P:\MiKTeX\tex/latex/biblatex/lbx\german.lbx
 File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/lbx/english.lbx
+(P:\MiKTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1590,15 +1535,14 @@ Package biblatex Info: ... and expl3
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/biblatex/blx-case-expl3.sty
+(P:\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-
-(main.bbl)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
 \c@lstlisting=\count522
@@ -1607,11 +1551,11 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package scrhack Info: undefining \float@addtolists on input line 12.
 Package hyperref Info: Link coloring OFF on input line 12.
- (/home/liam/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+
+(P:\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(/home/liam/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.st
-y
+(P:\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count523
@@ -1625,13 +1569,12 @@ LaTeX Info: Redefining \nameref on input line 12.
 
  (etc/titlepage.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
-
-(/home/liam/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+ (P:\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 
-(/home/liam/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+(P:\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <graphics/dhbw_mosbach.png, id=82, 173.9298pt x 88.6512pt>
@@ -1643,29 +1586,11 @@ Package pdftex.def Info: graphics/dhbw_mosbach.png  used on input line 11.
 
 \openout7 = `main.ist'.
 
-{/home/liam/.miktex/texmfs/data/pdftex/config/pdftex.map} <./graphics/dhbw_mosb
-ach.png>])
-Overfull \hbox (24.99965pt too wide) in paragraph at lines 18--21
-[]\T1/cmr/m/n/9 Angenommen wir betrachten das Sommermärchen 2006. Hierbei durft
-e jede Mannschaft
- []
-
-
-Overfull \hbox (25.5551pt too wide) in paragraph at lines 18--21
-\T1/cmr/m/n/9 23 Spieler für ihren Kader nominieren. Der Kader der deutschen Fu
-ÿballnationalmannschaft
- []
-
-
-Overfull \hbox (1.81615pt too wide) in paragraph at lines 18--21
-\T1/cmr/m/n/9 sogenannte Geburtstagsproblem, das auch unter dem Begriff Geburt
-stagsparadoxon
- []
-
-
-Overfull \hbox (12.00388pt too wide) in paragraph at lines 18--21
-\T1/cmr/m/n/9 einem Platz befindenden Menschen, völlig auÿer Acht lieÿen. Das G
-eburtstagsparadoxon
+{C:/Users/Tim HÃ¶nnige/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./graphi
+cs/dhbw_mosbach.png>])
+Overfull \hbox (4.3978pt too wide) in paragraph at lines 18--21
+[]\T1/cmr/m/n/9 Angenommen wir be-trach-ten das Som-mer-mär-chen 2006. Hier-bei
+ durf-te je-de Mann-
  []
 
 [1] (main.toc)
@@ -1677,25 +1602,7 @@ No file main.gls.
 No file main.acr.
 [2
 
-] (parts/einfuehrung.tex
-Overfull \hbox (36.02255pt too wide) in paragraph at lines 6--8
-\T1/cmr/m/n/10 weniger bewanderte personen fürden stehts subjektiv zu einer seh
-r viel geringeren warscheinlichkeit
- []
-
-
-Overfull \hbox (11.16026pt too wide) in paragraph at lines 19--20
-\T1/cmr/m/n/10 50% oder meht liegt verwenden wir das Gegenereignis. Wir berechn
-en die Wahrscheinlichkeit,
- []
-
-
-Overfull \hbox (1.72649pt too wide) in paragraph at lines 41--42
-[]\T1/cmr/m/n/10 Die Wahrscheinlichkeit für keine Kollision liegt bei 0,493, so
-mit liegt die Wahrscheinlichkeit
- []
-
-) (parts/herleitungen.tex
+] (parts/einfuehrung.tex) (parts/herleitungen.tex
 Overfull \hbox (24.46895pt too wide) detected at line 10
 [][]\OML/cmm/m/it/10 X[] \OT1/cmr/m/n/10 := []
  []
@@ -1720,7 +1627,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 20.
 
-<parts//../graphics/perde.png, id=210, 1284.8pt x 963.6pt>
+<parts//../graphics/perde.png, id=212, 1284.8pt x 963.6pt>
 File: parts//../graphics/perde.png Graphic file (type png)
 <use parts//../graphics/perde.png>
 Package pdftex.def Info: parts//../graphics/perde.png  used on input line 39.
@@ -1739,7 +1646,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<parts//../graphics/peq.png, id=211, 1284.8pt x 963.6pt>
+<parts//../graphics/peq.png, id=213, 1284.8pt x 963.6pt>
 File: parts//../graphics/peq.png Graphic file (type png)
 <use parts//../graphics/peq.png>
 Package pdftex.def Info: parts//../graphics/peq.png  used on input line 95.
@@ -1756,12 +1663,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39385 strings out of 481270
- 712121 string characters out of 2908786
- 1599529 words of memory out of 3000000
- 55770 multiletter control sequences out of 15000+200000
+ 39379 strings out of 479334
+ 699801 string characters out of 2873581
+ 1604507 words of memory out of 3000000
+ 56007 multiletter control sequences out of 15000+200000
  416351 words of font info for 55 fonts, out of 3000000 for 9000
- 2 hyphenation exceptions out of 8191
+ 1143 hyphenation exceptions out of 8191
  126i,11n,145p,1195b,2339s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{cite.0@rinne} has been referenced but does not ex
 ist, replaced by a fixed one
@@ -1778,29 +1685,26 @@ st, replaced by a fixed one
 pdfTeX warning (dest): name{cite.0@henze} has been referenced but does not exis
 t, replaced by a fixed one
 
- </home/liam/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk
-> </home/liam/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.p
-k> </home/liam/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm0900.
-pk> </home/liam/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx0900
-.pk> </home/liam/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm144
-0.pk> </home/liam/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx14
-40.pk> </home/liam/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1
-000.pk> </home/liam/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm
-1728.pk></home/liam/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbsy
-10.pfb></home/liam/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10
-.pfb></home/liam/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></home/liam/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></home/liam/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
-home/liam/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></hom
-e/liam/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmib10.pfb></home
-/liam/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/li
-am/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></home/liam/.
-miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/liam/.mikt
-ex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/liam/.miktex
-/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/liam/.miktex/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/liam/.miktex/texmf
-s/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (12 pages, 487042 bytes).
+ <C:\Users\Tim HÃ¶nnige\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecbx1200.pk> <C:\Users\Tim HÃ¶nnige\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1000.pk> <C:\Users\Tim HÃ¶nnige\AppData\Local\MiKTeX\fonts/pk
+/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Tim HÃ¶nnige\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Tim HÃ¶nnige\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Tim
+ HÃ¶nnige\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> 
+<C:\Users\Tim HÃ¶nnige\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecrm1000.pk> <C:\Users\Tim HÃ¶nnige\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecrm1728.pk><P:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb>
+<P:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><P:/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb><P:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><P:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><P:/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb><P:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb
+><P:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><P:/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr5.pfb><P:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><P:
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><P:/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy5.pfb><P:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><P:/
+MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (12 pages, 487989 bytes).
 PDF statistics:
  614 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)

@@ -10,12 +10,12 @@ Zur Modellierung des Geburtstagsproblems betrachten wir die Zufallsvariable:
     \end{equation}
 
 
-Da zumindest zwei Personen vorhanden sein müssen damit es zu einer Kollision kommt, ist der minimale Wert $2$. Höchstens sind es $n + 1$ Personen. Somit nimmt $X_{ n }$ die Werte $2,3,... ,(n+1)$ an und es gilt:
+Da zumindest zwei Personen vorhanden sein müssen damit es zu einer Kollision kommt, ist der minimale Wert $2$. Höchstens sind es $n + 1$ Personen. Somit nimmt $X_{ n }$ die Werte $2,3,\cdots ,(n+1)$ an und es gilt:
    \begin{equation}  \label{eq:01}
-   \mathbb{P}(X_{ n } \geq k + 1)  = \frac{ n * (n - 1) * (n - 2) * ...* (n - k + 1) }{ n^k }
+   \mathbb{P}(X_{ n } \geq k + 1)  = \frac{ n \cdot (n - 1) \cdot (n - 2) \cdot \cdots \cdot (n - k + 1) }{ n^k }
     \end{equation}
 
-für jedes $k = 1,2,...,n + 1$. Durch die Annahme der gleichen Verteilung der Zufallsereignisse (Laplace-Modell), ergibt der Zähler von (\ref{eq:01}) die Anzahl der günstigen Fälle an. \newline
+für jedes $k = 1,2,\cdots,n + 1$. Durch die Annahme der gleichen Verteilung der Zufallsereignisse (Laplace-Modell), ergibt der Zähler von (\ref{eq:01}) die Anzahl der günstigen Fälle an. \newline
 
 Aus \ref{eq:01} folgt durch Verwendung des Gegenereignisses:
 \begin{eqnarray}
@@ -27,7 +27,7 @@ Da bei einer einzigen Person $k = 1$ keine Kollision auftreten kann ist die Wahr
 
 In der Abbildung \ref{num.fpeqe} ist die Wahrscheinlichkeit $P(X_{n} \leq k)$ durch eine Funktion von k mit dem Parameter $n = 365$ dargestellt. Unterschiedliche Zahlenwerte für $n$ sind in den Tabellen im Absatz konkrete Zahlen aufgeführt. Für das Ereignis $ X_{n} \leq 23 $ ist die Wahrscheinlichkeit bereits höher als 50\%. \newline
 
-Auf den ersten Blick scheint überraschen das bei $8,5 * 10^{58}$ möglichen Kombinationen ($365^{23}$) der Geburtstagsverteilung bei 23 Personen. Die Wahrscheinlichkeit eines doppelten Geburtstags schon über 50\% liegt.
+Auf den ersten Blick scheint überraschen das bei $8,5 \cdot 10^{58}$ möglichen Kombinationen ($365^{23}$) der Geburtstagsverteilung bei 23 Personen. Die Wahrscheinlichkeit eines doppelten Geburtstags schon über 50\% liegt.
 Die Erklärung hierfür ist das wir auf irgendeine und nicht auf eine bestimmte Kollision warten. 
 
 
@@ -49,15 +49,15 @@ Die Taylor Entwicklung beginnt bereits mit 1+x, somit ist sie mindestens genauso
 
 Unter Verwendung der Ungleichung \ref{eq:03}, ist es uns möglich die unter \ref{eq:02.1} angegebene Funktion so weit zu vereinfachen, das kein Produkt- oder Summenzeichen mehr vorhanden ist, dadurch sind weitere Berechnungen einfacher zu realisieren.
 \begin{eqnarray}
-\mathbb{P}(X_{ n } \leq k) \approx 1 - \prod_{ j = 1 }^{ k - 1 }{ 1 - \frac{ j }{ n } } \geq 1 - exp( - \sum_{ j = 1 }^{ k - 1 }{ \frac{ j }{ n } } )  \label{eq:03.1}\\
-\approx 1 - exp( - \frac{ k (k + 1) }{ 2n } )  \label{eq:03.2}
+\mathbb{P}(X_{ n } \leq k) \approx 1 - \prod_{ j = 1 }^{ k - 1 }{ 1 - \frac{ j }{ n } } \geq 1 - \exp( - \sum_{ j = 1 }^{ k - 1 }{ \frac{ j }{ n } } )  \label{eq:03.1}\\
+\approx 1 - \exp( - \frac{ k (k + 1) }{ 2n } )  \label{eq:03.2}
 \end{eqnarray}
 
-Bei der ersten Umformung in \ref{eq:03.1} wird das Produkt zu einer Summe im Exponenten von $e$, aufgrund der allgemeinen Potenzgesetze  $a^{ r } * a^{ s } = a^{ r + s }$ \cite[267]{papula}. In der nächsten Umformung wird die im ersten Schritt geschaffene Summe mithilfe der Gaußschen Summenformel ersetzt \cite[9ff]{petkovsek1996b}. \newline
+Bei der ersten Umformung in \ref{eq:03.1} wird das Produkt zu einer Summe im Exponenten von $e$, aufgrund der allgemeinen Potenzgesetze  $a^{ r } \cdot a^{ s } = a^{ r + s }$ \cite[267]{papula}. In der nächsten Umformung wird die im ersten Schritt geschaffene Summe mithilfe der Gaußschen Summenformel ersetzt \cite[9ff]{petkovsek1996b}. \newline
 
 Somit ergibt sich zur Berechnung der Wahrscheinlichkeit die allgemeine Formel:
 \begin{equation}
-\mathbb{P}(X \leq k) \approx 1 - exp( - \frac{ k (k + 1) }{ 2n } ) \label{eq:04}
+\mathbb{P}(X \leq k) \approx 1 - \exp( - \frac{ k (k + 1) }{ 2n } ) \label{eq:04}
 \end{equation}
 \subsection{Wahrscheinlichkeitsdichte}
 
@@ -81,20 +81,20 @@ bzw.
 Für das Geburtstagsproblem ist die Wahrscheinlichkeitsverteilung aus Formel \ref{eq:04} als gegeben anzusehen. Es lässt sich aus der Definition für die Dichte folgende Gleichung ableiten:
 \begin{eqnarray}
 \mathbb{P}(X \leq k) \approx \int_{ -\infty }^{ k }{ f(k) dk } \\
-\implies 1 - exp( - \frac{ k (k + 1) }{ 2n } ) \approx \int_{ -\infty }^{ k }{ f(k) dk }
+\implies 1 - \exp( - \frac{ k (k + 1) }{ 2n } ) \approx \int_{ -\infty }^{ k }{ f(k) dk }
 \end{eqnarray}
 
 Durch Ableiten der Gleichung ergibt sich eine Definition für die Funktion f(k):
 
 \begin{eqnarray}
-\implies 1 - exp( - \frac{ k (k + 1) }{ 2n } ) \approx \int_{ -\infty }^{ k }{ f(k) dk } \quad | \quad \frac{ d }{ dk }\\
-\implies \frac{ (k-1) }{ n } * exp( - \frac{ k (k + 1) }{ 2n } ) \approx f(k)
+\implies 1 - \exp( - \frac{ k (k + 1) }{ 2n } ) \approx \int_{ -\infty }^{ k }{ f(k) dk } \quad | \quad \frac{ d }{ dk }\\
+\implies \frac{ (k-1) }{ n } \cdot \exp( - \frac{ k (k + 1) }{ 2n } ) \approx f(k)
 \end{eqnarray}
 
 Somit ist die Dichte für das Geburtstagsproblem folgendermaßen definiert:
 
 \begin{equation}
-\mathbb{P}(X = k) \approx \frac{ (k-1) }{ n } * exp( - \frac{ k (k + 1) }{ 2n } )
+\mathbb{P}(X = k) \approx \frac{ (k-1) }{ n } \cdot \exp( - \frac{ k (k + 1) }{ 2n } )
 \end{equation}
 
  \subsection{Erwartungswert}
@@ -106,10 +106,10 @@ $\mathcal{T}$ bezeichnet die Gammafunktion \cite{rinne}. \newline
 
 Somit ergibt sich die Funktion:
 \begin{equation}
-\mathbb{E}(X - 1) = \mathbb{E}(X) - 1 \approx \sqrt{ 2n } * \mathcal{T} (1 + \frac{ 1 }{ 2 } ) = \sqrt{ 2n } * \frac{ \sqrt{ \pi } }{ 2 } = \sqrt{ \frac{ \pi*n }{ 2 } }
+\mathbb{E}(X - 1) = \mathbb{E}(X) - 1 \approx \sqrt{ 2n } \cdot \mathcal{T} (1 + \frac{ 1 }{ 2 } ) = \sqrt{ 2n } \cdot \frac{ \sqrt{ \pi } }{ 2 } = \sqrt{ \frac{ \pi \cdot n }{ 2 } }
 \end{equation}
 \begin{equation}
-\mathbb{E}(X) \approx \sqrt{ \frac{ \pi*n }{ 2 } } + 1
+\mathbb{E}(X) \approx \sqrt{ \frac{ \pi \cdot n }{ 2 } } + 1
 \end{equation}
 
 für den Erwartungswert.
@@ -118,9 +118,9 @@ für den Erwartungswert.
 
 Die Varianz wird so wie der Erwartungswert auch mithilfe der Weibull-Verteilung bestimmt. Die Parameter sind hierbei dieselben wie schon für den Erwartungswert verwendet wurden  \cite{rinne}.
 \begin{eqnarray}
-Var(X) \approx \frac{ 1 }{ \lambda^{ 2 } } * [\mathcal{T}(1+\frac{ 2 }{ k }) - \mathcal{T}^{ 2 }(1+\frac{ 1 }{ k } )]   \label{eq:08}\\
-\approx 2n * [\mathcal{T}(1+\frac{ 2 }{ 2 }) - \mathcal{T}^{ 2 }(1+\frac{ 1 }{ 2 } )] \\
-\approx 2n * [1 - \frac{ \pi }{ 4 }]
+Var(X) \approx \frac{ 1 }{ \lambda^{ 2 } } \cdot [\mathcal{T}(1+\frac{ 2 }{ k }) - \mathcal{T}^{ 2 }(1+\frac{ 1 }{ k } )]   \label{eq:08}\\
+\approx 2n \cdot [\mathcal{T}(1+\frac{ 2 }{ 2 }) - \mathcal{T}^{ 2 }(1+\frac{ 1 }{ 2 } )] \\
+\approx 2n \cdot [1 - \frac{ \pi }{ 4 }]
 \end{eqnarray}
 
 Die Definition der Varianz der Weibull-Verteilung ist in \ref{eq:08} gegeben \cite{rinne}.
@@ -143,53 +143,52 @@ Im Folgenden wird beschrieben wie aus dieser Definition eine Funktion konstruier
 
 Für das  $\frac{1}{2}$-Quantil (Median):
 \begin{align*}
-& \mathbb{P}(X \leq k) = 1 - \mathbb{P}(X > k) \geq 1 - exp(-\frac{ k(k-1) }{ n }) \overset{!}{=} \frac{ 1 }{ 2 } \\
-& \Leftrightarrow ln(\frac{ 1 }{ 2 }) = -\frac{ k(k-1)}{ 2n } \\
-& \Leftrightarrow -2n*ln(2) = -k(k-1) \\
-& \Leftrightarrow 2n*ln(2) = k(k-1) \\
-& \Leftrightarrow 2n*ln(2) = k^{2} - k \\
-& \Leftrightarrow - k^{2} + k + 2n*ln(2) = 0 \\
-& \Leftrightarrow k^{2} - k - 2n*ln(2) = 0 \\
-& \Leftrightarrow k = \frac{ 1 }{ 2 } \pm \sqrt{ \frac{ 1 }{ 4 } - 2n*ln(2)} \\
+& \mathbb{P}(X \leq k) = 1 - \mathbb{P}(X > k) \geq 1 - \exp(-\frac{ k(k-1) }{ n }) \overset{!}{=} \frac{ 1 }{ 2 } \\
+& \Leftrightarrow ln(\frac{ 1 }{ 2 }) = \frac{ k(k-1)}{ 2n } \\
+& \Leftrightarrow -2n\cdot ln(2) = k(k-1) \\
+& \Leftrightarrow 2n\cdot ln(2) = k(k-1) \\
+& \Leftrightarrow 2n\cdot ln(2) = k^{2} - k \\
+& \Leftrightarrow - k^{2} + k + 2n\cdot ln(2) = 0 \\
+& \Leftrightarrow k^{2} - k - 2n\cdot ln(2) = 0 \\
+& \Leftrightarrow k = \frac{ 1 }{ 2 } \pm \sqrt{ \frac{ 1 }{ 4 } + 2n\cdot ln(2)} \\
 \end{align*}
 
 Daraus lässt sich dann folgendes Ableiten:
 \begin{equation}
-Q_{ \frac{ 1 }{ 2 } }(X) \leq \bigg( \frac{ 1 }{ 2 } + \sqrt{ \frac{ 1 }{ 4 } - 2n*ln(2)} \bigg) \leq \bigg(1+\sqrt{ 2n*ln(2) }\bigg)
+Q_{ \frac{ 1 }{ 2 } }(X) \leq \bigg( \frac{ 1 }{ 2 } + \sqrt{ \frac{ 1 }{ 4 } + 2n\cdot ln(2)} \bigg) \leq \bigg(1+\sqrt{ 2n\cdot ln(2) }\bigg)
 \end{equation}
 \newline
 
 Das Quantil befindet sich somit in den Grenzen der quadratischen Funktion:
 \begin{equation}
- k = \frac{ 1 }{ 2 } \pm \sqrt{ \frac{ 1 }{ 4 } - 2n*ln(2)}
+ k = \frac{ 1 }{ 2 } \pm \sqrt{ \frac{ 1 }{ 4 } + 2n\cdot ln(2)}
 \end{equation}
 
 Das spezielle $ \frac{1}{2} $-Quantil lässt sich auch allgemein bestimmen, sodass der Schwellwert $p$ ein Parameter der Funktion ist:
 
 \begin{align*}
-& 1 - exp(-\frac{ k(k-1) }{ n }) \overset{!}{=} p \\
-& \Leftrightarrow ln(p) = -\frac{ k(k-1)}{ 2n } \\
-& \Leftrightarrow 2n*ln(p) = -k(k-1) \\
-& \Leftrightarrow 2n*ln(p) = k(k-1) \\
-& \Leftrightarrow 2n*ln(p) = k^{ 2 } - k \\
-& \Leftrightarrow - k^{ 2 } + k + 2n*ln(p) = 0 \\
-& \Leftrightarrow k^{ 2 } - k - 2n*ln(p) = 0 \\
-& \Leftrightarrow k = \frac{ 1 }{ 2 } \pm \sqrt{ \frac{ 1 }{ 4 } + 2n*ln(p)}
+& 1 - \exp(-\frac{ k(k-1) }{ n }) \overset{!}{=} p \\
+& \Leftrightarrow ln(1-p) = \frac{ k(k-1)}{ 2n } \\
+& \Leftrightarrow 2n\cdot ln(1-p) = k(k-1) \\
+& \Leftrightarrow 2n\cdot ln(1-p) = k^{ 2 } - k \\
+& \Leftrightarrow - k^{ 2 } + k + 2n\cdot ln(1-p) = 0 \\
+& \Leftrightarrow k^{ 2 } - k - 2n\cdot ln(1-p) = 0 \\
+& \Leftrightarrow k = \frac{ 1 }{ 2 } \pm \sqrt{ \frac{ 1 }{ 4 } + 2n\cdot ln(1-p)}
 \end{align*}
 
 Daraus lässt sich wie bei der speziellen Lösung, folgende Aussage ableiten:
 \begin{equation}
-Q_{ p }(X) \leq \bigg( \frac{ 1 }{ 2 } + \sqrt{ \frac{ 1 }{ 4 } - 2n*ln(p)} \bigg) \leq \bigg(1+\sqrt{ 2n*ln(p) }\bigg)
+Q_{ p }(X) \leq \bigg( \frac{ 1 }{ 2 } + \sqrt{ \frac{ 1 }{ 4 } + 2n\cdot ln(1-p)} \bigg) \leq \bigg(1+\sqrt{ 2n\cdot ln(1-p) }\bigg)
 \end{equation}
 
 Somit lassen sich die Quantile durch folgende Funktionen approximieren:
 
 \begin{equation}
-Q_{ p }(X) \approx \frac{ 1 }{ 2 } + \sqrt{ \frac{ 1 }{ 4 } - 2n*ln(p)}
+Q_{ p }(X) \approx \frac{ 1 }{ 2 } + \sqrt{ \frac{ 1 }{ 4 } + 2n\cdot ln(1-p)}
 \end{equation}
 
 \begin{equation}
-Q_{ p }(X) \approx 1+\sqrt{ 2n*ln(p) }
+Q_{ p }(X) \approx 1+\sqrt{ 2n\cdot ln(1-p) }
 \end{equation}
 
 
