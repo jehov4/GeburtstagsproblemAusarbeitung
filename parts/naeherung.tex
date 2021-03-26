@@ -1,0 +1,47 @@
+%! Author = Arbeit
+%! Date = 26.03.2021
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}
+
+% Document
+\begin{document}
+    \section{Näherung}
+    \newline
+    Das offenbar spektakuläre Ereignis besteht scheinbar darin, dass bei der schrittweisen rein zufälligen Belegung
+    von \(n\) = 365 unterschiedlichen Tagen die erste Kollision bereits nach dem 23. Tag stattfand, d.h. ein bereits
+    durch einen Geburtstag belegter Tag wurde erneut belegt. Intuitiv würde man erwarten, dass der Zeitpunkt dieser
+    ersten Kollision viel später liegt. Würden Sie z. B. bei \(n\)= 1000 Fächern darauf wetten, dass die erste Kollision
+    spätestens nach 50 Versuchen auftrat?
+    \newline
+    Zur Modellierung des Kollisionsphänomens betrachten wir die Zufallsvariable
+    \newline
+    \[{ X_{n} = \text{ Zeitpunkt der ersten Kollision beim sukzessiven rein zufälligen Besetzen von n Tagen. } }\]
+    \newline
+    Da mindestens \(2\) und höchstens \(n + 1\) Versuche bis zur ersten Kollision nötig sind, nimmt Xn die Werte 2,3, . . ., n + 1 an, und es gilt P (Xn ≥ k + 1) = n · (n − 1) · (n − 2) · ... · (n − k + 1) nk = nk nk
+    \newline\newline
+    Daraus folgt das Gegenereignis
+    \newline\newline
+    \(P (X_{n} ≤ k)=1 − k −1 j=1 1 − j n \)
+    \newline
+    Die Formel zeigt die Wahrscheinlichkeiten \(P(X_{n} \leq k)\) als Funktion von \(k\) für den Fall \(n = 365\).
+    Für das Ereignis \({X_{n} \leq 23}\) gilt\( P(X_{n} \leq 23) = 0,5073 \)
+    \newline
+    \newline
+    Es vermag vermutlich überraschend zu erscheinen, dass wir bei fast 365 möglichen Tagen im Jahr durchaus auf das
+    Auftreten des doppelten Geburtstags nach höchstens 23 Personen wetten können. Doch der Grund hierfür ist, dass wir
+    auf irgendeine beliebige und nicht nach einer bestimmten Kollision suchen.
+    Der Zeitpunkt der ersten Kollision bei der rein zufälligen sukzessiven Besetzung von \(n\) Tagen ist von
+    der Größenordnung \(\sqrt{n}\).
+    \newline
+    \newline
+    Da beim Geburtstagsproblem  \(P (X365 \leq 23) = 0.507 > 1/2\) gilt, kann durchaus darauf gewettet werden,
+    dass unter 23 aber auch mehr Personen mindestens zwei am gleichen Tag Geburtstag haben. Bei
+    \(\sqrt{365 * 2 * ln(2)} = 22.49\)
+    ist die Approximation schon für \(n\) = 365 sehr gut.
+
+
+\end{document}

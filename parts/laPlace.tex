@@ -1,0 +1,47 @@
+%! Author = Arbeit
+%! Date = 26.03.2021
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}
+
+% Document
+\begin{document}
+    \section{Gleichverteilung:}
+
+    Sei Ω eine endliche Ergebnismenge und \(p : \Omega \rightarrow [0, 1]\) eine Wahrscheinlichkeitsfunktion.
+    Wenn \( p(x) = \frac{1}{|\Omega|}\) gilt, dann spricht man von Gleichverteilung,
+    genauer: die Wahrscheinlichkeitsfunktion \(p\) ist gleichverteilt.
+    Alle möglichen Ausgänge des Zufallsexperiments treten mit der gleichen Wahrscheinlichkeit auf.
+
+
+    \section{La Place:}
+
+    Ein Versuch heißt dann ”La Place Versuch”, wenn keines der Elementarereignisse mit einer größeren
+    Häufigkeit auftritt als ein anderes. Somit ist die Wahrscheinlichkeit aller möglichen Ergebnisse gleich.
+
+    \[P(x)= \frac{1}{\Omega}\]
+
+    Bei Laplace Versuchen wird die Wahrscheinlichkeit \(P(E)\) eines Ereignisses E wie folgt berechnet:
+    \[P(E)= \frac{Anzahl der zum Ereignis E gehörenden Ergebnisse} {Anzahl aller möglichen Ergebnisse} = \frac{IEI} {ISI}\]
+
+
+    Beispiel:
+    \begin{itemize}
+        \item Werfen einer fairen Münze (\(\Omega= {Kopf, Zahl}\))
+    \end{itemize}
+    \begin{itemize}
+        \item N-maliges Werfen eines fairen Würfels (\(\Omega=({1,...,6}) ^n\))
+    \end{itemize}
+
+
+    \section{Gaußsche Summenformel: }
+
+    Mithilfe der Gaußschen Summenformel lässt sich die Summe beliebig vieler (= \(n\)) natürlicher Zahlen berechnen.
+    Hierbei addiert man alle natürlichen Zahlen von 1 bis zu der gewählten Grenze \(n\).
+
+    \[0 + 1 +2 +3+ 4+ ...+n = \sum \limits_{k=0}^{n} k = \frac{n(n+1)}{2} = \frac {n^{2}+n}{2}\]
+
+\end{document}
