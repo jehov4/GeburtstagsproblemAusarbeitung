@@ -7,7 +7,7 @@ Das Geburtstagsproblem generiert eine Wahrscheinlichkeit das unter \(k\) zufäll
 selben Tag Geburtstag haben. Es ist eine Abwandlung des Paradoxons der ersten Kollision. \cite{henze} Bei \(k=23\) ist die
 Wahrscheinlichkeit das zwei Personen bereits am gleichen Tag Geburtstag haben bei über 50\%. Das ist gerade für
 stochastisch weniger bewanderte Personen erstaunlich, denn diese vermuten eine sehr viel geringere Wahrscheinlichkeit,
-da sie das Problem auf ihr Umfeld assoziieren.
+da sie das Geburtstagsproblem auf ihr Umfeld assoziieren.
 
 Zuerst bestimmen wir \(n\). Das ist die Wahrscheinlichkeit das eine Person an einem bestimmten Tag der Jahren Geburtstag hat.
 Das gewählte Jahr besitzt die Eigenschaften unserer Annahmen.
@@ -18,7 +18,10 @@ Daraus ergibt sich:
 n = \frac{1}{365}
 \end{equation}
 
-Um auszurechnen, wie viele Personen sich in einem Raum befinden müssen, so dass die Wahrscheinlichkeit, dass mindestens zwei Personen am selben Tag Geburtstag haben bei 50\% oder mehr liegt verwenden wir das Gegenereignis. Wir berechnen die Wahrscheinlichkeit, dass alle Personen im Raum an verschiedenen Tagen Geburtstag haben und nähern uns den von oben den 50\%
+Um auszurechnen, wie viele Personen sich in einem Raum befinden müssen, so dass die Wahrscheinlichkeit,
+dass mindestens zwei Personen am selben Tag Geburtstag haben bei 50\% oder mehr liegt verwenden wir das Gegenereignis.
+Wir berechnen die Wahrscheinlichkeit, dass alle Personen im Raum an verschiedenen Tagen Geburtstag haben und nähern uns
+von oben den 50\%.
 
 Für 2 Personen:
 
@@ -26,7 +29,7 @@ Für 2 Personen:
  \frac{365}{365} \cdot \frac{364}{365} = 0,997
 \end{equation}
 
-Die erste Person kann aus 365 Tagen wählen ohne das es zu einer Kollision kommt, für die 2. Person bleiben 364 Tage
+Die erste Person kann aus 365 Tagen wählen, ohne das es zu einer Kollision kommt, für die 2. Person bleiben 364 Tage.
 
 Für 3 Personen:
 
@@ -34,13 +37,15 @@ Für 3 Personen:
  \frac{365}{365} \cdot \frac{364}{365} \cdot \frac{363}{365} = 0,991
 \end{equation}
 
-Dies wird weitergeführt, bis die Wahrscheinlichkeit für das Gegenereignis bei etwa 50\% liegt, somit liegt dann auch das Ereignis, dass mindestens Zwei Personen am selben Tag Geburtstag haben bei etwa 50\%. Dieser Fall Tritt bei einer Personen Zahl von 23 ein.
+Dies wird weitergeführt, bis die Wahrscheinlichkeit für das Gegenereignis bei etwa 50\% liegt, somit liegt dann
+auch das Ereignis, dass mindestens Zwei Personen am selben Tag Geburtstag haben bei etwa 50\%. Dieser
+Fall tritt bei einer Personenzahl von 23 ein.
 
 \begin{equation}
  \frac{365}{365} \cdot \frac{364}{365} \cdot \frac{363}{365} \cdot ... \cdot \frac{343}{365} = 0,493
 \end{equation}
 
-Die Wahrscheinlichkeit für keine Kollision liegt bei 0,493, somit liegt die Wahrscheinlichkeit für eine Kollision bei 0,507
+Die Wahrscheinlichkeit für keine Kollision liegt bei $0,493$, somit liegt die Wahrscheinlichkeit für eine Kollision bei $0,507$
 
 \begin{equation}
  1-0,492 = 0,507
