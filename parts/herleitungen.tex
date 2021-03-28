@@ -144,8 +144,8 @@ Im Folgenden wird beschrieben wie aus dieser Definition eine Funktion konstruier
 Für das  $\frac{1}{2}$-Quantil (Median):
 \begin{align*}
 & \mathbb{P}(X \leq k) = 1 - \mathbb{P}(X > k) \geq 1 - \exp(-\frac{ k(k-1) }{ n }) \overset{!}{=} \frac{ 1 }{ 2 } \\
-& \Leftrightarrow ln(\frac{ 1 }{ 2 }) = \frac{ k(k-1)}{ 2n } \\
-& \Leftrightarrow -2n\cdot ln(2) = k(k-1) \\
+& \Leftrightarrow ln(\frac{ 1 }{ 2 }) = -\frac{ k(k-1)}{ 2n } \\
+& \Leftrightarrow -2n\cdot ln(2) = -k(k-1) \\
 & \Leftrightarrow 2n\cdot ln(2) = k(k-1) \\
 & \Leftrightarrow 2n\cdot ln(2) = k^{2} - k \\
 & \Leftrightarrow - k^{2} + k + 2n\cdot ln(2) = 0 \\
@@ -155,7 +155,7 @@ Für das  $\frac{1}{2}$-Quantil (Median):
 
 Daraus lässt sich dann folgendes ableiten:
 \begin{equation}
-Q_{ \frac{ 1 }{ 2 } }(X) \leq \bigg( \frac{ 1 }{ 2 } + \sqrt{ \frac{ 1 }{ 4 } + 2n\cdot ln(2)} \bigg) \leq \bigg(1+\sqrt{ 2n\cdot ln(2) }\bigg)
+Q_{ \frac{ 1 }{ 2 } }(X) \leq \bigg( \frac{ 1 }{ 2 } + \sqrt{ \frac{ 1 }{ 4 } - 2n\cdot ln(2)} \bigg) \leq \bigg(1+\sqrt{ 2n\cdot ln(2) }\bigg)
 \end{equation}
 \newline
 
@@ -167,13 +167,12 @@ Das Quantil befindet sich somit in den Grenzen der quadratischen Funktion:
 Das spezielle $ \frac{1}{2} $-Quantil lässt sich auch allgemein bestimmen, sodass der Schwellwert $p$ ein Parameter der Funktion ist:
 
 \begin{align*}
-& 1 - \exp(-\frac{ k(k-1) }{ n }) \overset{!}{=} p \\
-& \Leftrightarrow ln(1-p) = \frac{ k(k-1)}{ 2n } \\
-& \Leftrightarrow 2n\cdot ln(1-p) = k(k-1) \\
-& \Leftrightarrow 2n\cdot ln(1-p) = k^{ 2 } - k \\
-& \Leftrightarrow - k^{ 2 } + k + 2n\cdot ln(1-p) = 0 \\
-& \Leftrightarrow k^{ 2 } - k - 2n\cdot ln(1-p) = 0 \\
-& \Leftrightarrow k = \frac{ 1 }{ 2 } \pm \sqrt{ \frac{ 1 }{ 4 } + 2n\cdot ln(1-p)}
+& 1 - \exp(-\frac{ k(k-1) }{ 2n }) \overset{!}{=} p \\
+& \Leftrightarrow ln(1-p) = -\frac{ k(k-1)}{ 2n } \\
+& \Leftrightarrow 2n\cdot ln(1-p) = -k(k-1) \\
+& \Leftrightarrow 2n\cdot ln(1-p) = -k^{ 2 } + k \\
+& \Leftrightarrow k^{ 2 } - k + 2n\cdot ln(1-p) = 0 \\
+& \Leftrightarrow k = \frac{ 1 }{ 2 } \pm \sqrt{ \frac{ 1 }{ 4 } - 2n\cdot ln(1-p)}
 \end{align*}
 
 Daraus lässt sich wie bei der speziellen Lösung, folgende Aussage ableiten:
