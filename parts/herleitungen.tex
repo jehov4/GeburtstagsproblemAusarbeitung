@@ -84,6 +84,7 @@ Für das Geburtstagsproblem ist die Wahrscheinlichkeitsverteilung aus Formel \re
 \implies 1 - \exp( - \frac{ k (k + 1) }{ 2n } ) \approx \int_{ -\infty }^{ k }{ f(k) dk }
 \end{eqnarray}
 
+
 Durch Ableiten der Gleichung ergibt sich eine Definition für die Funktion $f(k)$:
 
 \begin{eqnarray}
@@ -102,11 +103,11 @@ Somit ist die Dichte für das Geburtstagsproblem folgendermaßen definiert:
 Der Erwartungswert für das Geburtstagsproblem lässt sich mithilfe der Weibull-Verteilung konstruieren. In dieser Ausarbeitung wird nicht näher auf die Weibull-Verteilung oder die verwendete Gamma-Funktion eingegangen, diese werden als vorausgesetzt angesehen \cite{rinne}.  \newline
 
 Für die um $1$ nach rechts verschobene Weibull-Verteilung werden folgende Parameter verwendet. $k = 2$, dadurch ergibt sich eine Rayleigh-Verteilung und $\lambda = \frac{ 1 }{ \sqrt{2n} }$.
-$\gamma$ bezeichnet die Gammafunktion \cite{rinne}. \newline
+$\Gamma$ bezeichnet die Gammafunktion \cite{rinne}. \newline
 
 Somit ergibt sich die Funktion:
 \begin{equation}
-\mathbb{E}(X - 1) = \mathbb{E}(X) - 1 \approx \sqrt{ 2n } \cdot \gamma (1 + \frac{ 1 }{ 2 } ) = \sqrt{ 2n } \cdot \frac{ \sqrt{ \pi } }{ 2 } = \sqrt{ \frac{ \pi \cdot n }{ 2 } }
+\mathbb{E}(X - 1) = \mathbb{E}(X) - 1 \approx \sqrt{ 2n } \cdot \Gamma (1 + \frac{ 1 }{ 2 } ) = \sqrt{ 2n } \cdot \frac{ \sqrt{ \pi } }{ 2 } = \sqrt{ \frac{ \pi \cdot n }{ 2 } }
 \end{equation}
 \begin{equation}
 \mathbb{E}(X) \approx \sqrt{ \frac{ \pi \cdot n }{ 2 } } + 1
@@ -118,8 +119,8 @@ für den Erwartungswert.
 
 Die Varianz wird so wie der Erwartungswert auch mithilfe der Weibull-Verteilung bestimmt. Die Parameter sind hierbei dieselben welche bereits für den Erwartungswert verwendet wurden\cite{rinne}.
 \begin{eqnarray}
-Var(X) \approx \frac{ 1 }{ \lambda^{ 2 } } \cdot [\gamma (1+\frac{ 2 }{ k }) - \gamma^{ 2 }(1+\frac{ 1 }{ k } )]   \label{eq:08}\\
-\approx 2n \cdot [\gamma(1+\frac{ 2 }{ 2 }) - \gamma^{ 2 }(1+\frac{ 1 }{ 2 } )] \\
+Var(X) \approx \frac{ 1 }{ \lambda^{ 2 } } \cdot [\Gamma (1+\frac{ 2 }{ k }) - \Gamma^{ 2 }(1+\frac{ 1 }{ k } )]   \label{eq:08}\\
+\approx 2n \cdot [\Gamma(1+\frac{ 2 }{ 2 }) - \Gamma^{ 2 }(1+\frac{ 1 }{ 2 } )] \\
 \approx 2n \cdot [1 - \frac{ \pi }{ 4 }]
 \end{eqnarray}
 
