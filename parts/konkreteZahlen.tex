@@ -2,10 +2,13 @@
 \documentclass[../main.tex]{subfiles}
 \begin{document}
 \section{Konkrete Zahlen}
-Hier werden die hergeleiteten Formeln angewendet, um konkrete Zahlen zu erhalten. Um einen Maßstab zu sehen werden jeweils ein Erdenjahr (365 Tage), ein Marsjahr (780 Tage) und ein Jupiterjahr (4330 Tage) gezeigt.
+Hier werden die hergeleiteten Formeln angewendet, um konkrete Zahlen zu erhalten.
+Um einen Maßstab zu sehen werden jeweils ein Erdenjahr (365 Tage), ein Marsjahr (780 Tage) und ein Jupiterjahr (4330 Tage) gezeigt.
 \subsection{Wahrscheinlichkeit der ersten Kollision}
 
-Mithilfe der Formel \ref{num.pleq} wird die Wahrscheinlichkeiten dafür berechnet, dass $X \leq k$ ist. $X$ ist hierbei der Zeitpunkt der 1. Kollision. Mit der Formel \ref{num.peq} wird die Wahrscheinlichkeit erechnet, dass die Kollision bei $k$ stattfindet.
+Mithilfe der Formel \ref{num.pleq} wird die Wahrscheinlichkeiten dafür berechnet, dass $X \leq k$ ist. $X$ ist hierbei der
+Zeitpunkt der 1. Kollision.
+Mit der Formel \ref{num.peq} wird die Wahrscheinlichkeit errechnet das die Kollision bei $k$ stattfindet.
 
 \begin{equation}
  \mathbb{P}(X \leq k) \approx 1 - e^{- \frac{k(k-1)}{2n}}
@@ -55,7 +58,7 @@ $k$  & $\mathbb{P}(X_{n} \leq k)$ & $k$  & $\mathbb{P}(X_{n} \leq k)$ \\ \hline
 30 & 0,417            & 90 & 0,994            \\
 45 & 0,711            &    &                  \\ \hline
 \end{tabular}
-\caption{\label{num.tpm} Wahrscheinlichkeit für die erste Kollision nach höhstens $k$ Personen auf dem Mars}
+\caption{\label{num.tpm} Wahrscheinlichkeit für die erste Kollision nach höchstens $k$ Personen auf dem Mars}
 \end{table}
 
 \textbf{Jupiter}
@@ -87,7 +90,7 @@ $k$  & $\mathbb{P}(X_{n} = k)$ & $k$  & $\mathbb{P}(X_{n} = k)$ & $k$  & $\mathb
 15 & 0,029            & 35 & 0,019            & 55 & 0,003            \\
 20 & 0,032            & 40 & 0,013            & 60 & 0,001      \\ \hline
 \end{tabular}
-\caption{\label{num.tpeqe} Wahrscheinlichkeit für die erste Kollision bei der $k$ Person}
+\caption{\label{num.tpeqe} Wahrscheinlichkeit für die erste Kollision bei der $k$-ten Person}
 \end{table}
 
 \begin{figure}[h]
@@ -95,12 +98,12 @@ $k$  & $\mathbb{P}(X_{n} = k)$ & $k$  & $\mathbb{P}(X_{n} = k)$ & $k$  & $\mathb
  \includegraphics[width=0.7\textwidth]{../graphics/peq.png}
  % peq.png: 1280x960 px, 72dpi, 45.16x33.87 cm, bb=0 0 1280 960
 \end{center}
-\caption{\label{num.fpeqe} Wahrscheinlichkeit für die erste Kollision bei der $k$ Person}
+\caption{\label{num.fpeqe} Wahrscheinlichkeit für die erste Kollision bei der $k$-ten Person}
 \end{figure}
 
 
 
-Die höchste Wahrscheinlichkeit dafür, dass die erste Kollision genau bei $k$ auftritt liegt auf der Erde bei \bm{$\sim 20,105$} (zu sehen auf Grafik \ref{num.fpeqe}), auf dem Mars bei \bm{$\sim 28,928$} und auf dem Jupiter bei \bm{$\sim 66,803$} also jeweils bei \bm{$1 + \sqrt{n}$}.
+Die höchste Wahrscheinlichkeit das die erste Kollision genau bei $k$ auftritt, liegt auf der Erde bei \bm{$\sim 20,105$} (zu sehen auf Grafik \ref{num.fpeqe}), auf dem Mars bei \bm{$\sim 28,928$} und auf dem Jupiter bei \bm{$\sim 66,803$}, also jeweils bei \bm{$1 + \sqrt{n}$}.
 
 \subsection{Erwartungswerte}
 
@@ -116,7 +119,7 @@ Für die verschiedenen Planeten kommen dabei folgende Werte heraus:
 \begin{center}
 \begin{tabular}{|l|l|}
 \hline
-\textbf{Planet} & \textbf{Erwartungswert}\hline
+\textbf{Planet} & \textbf{Erwartungswert}\\ \hline
 Erde & 24,945\\ \hline
 Mars & 36,003\\ \hline
 Jupiter & 83,472 \\ \hline

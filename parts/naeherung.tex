@@ -13,29 +13,32 @@
 
     Das offenbar spektakuläre Ereignis besteht scheinbar darin, dass bei der schrittweisen rein zufälligen Belegung
     von \(n\) = 365 unterschiedlichen Tagen die erste Kollision bereits nach dem 23. Tag stattfand, d.h. ein bereits
-    durch einen Geburtstag belegter Tag wurde erneut belegt. Intuitiv würde man erwarten, dass der Zeitpunkt dieser
-    ersten Kollision viel später liegt. Würden Sie z. B. bei \(n\)= 1000 Tagen darauf wetten, dass die erste Kollision
-    spätestens nach 50 Personen auftrat?
+    durch einen Geburtstag belegter Tag wurde erneut belegt.
+    Intuitiv würde man erwarten das der Zeitpunkt dieser
+    ersten Kollision viel später liegt.
+    Würden Sie z. B. bei \(n\)= 1000 Tagen darauf wetten, dass die erste Kollision
+    spätestens nach 50 Personen auftritt?
     \newline
     Zur Modellierung des Kollisionsphänomens betrachten wir die Zufallsvariable
     \newline
-    \[{ X_{n} = \text{ Zeitpunkt der ersten Kollision beim sukzessiven \newline rein zufälligen Besetzen von n Tagen. } }\]
+    \[{ X_{n} = \text{ Zeitpunkt der ersten Kollision beim sukzessiven rein zufälligen Besetzen von n Tagen. } }\]
     \newline
-    Da mindestens \(2\) und höchstens \(n + 1\) Versuche bis zur ersten Kollision nötig sind, nimmt \(X_n\) die Werte \(2,3, . . ., n + 1\) an, und es gilt
+    Da mindestens \(2\) und höchstens \(n + 1\) Versuche bis zur ersten Kollision nötig sind, nimmt \(X_n\) die
+    Werte \(2,3, . . ., n + 1\) an, und es gilt
 
 
     \[\mathbb{P}(X_{n} \geq k+1) = \frac {n*(n-1)*(n-2)* ... * (n-k + 1)}{n^k} = \frac{n^{\underline{\ k}}}{n^k}\]
     \newline\newline
-    für jedes \(k = 1,2,...,n+1\).
+    für jedes \(k = 1,2,\dots,n+1\).
     \newline
     Daraus folgt das Gegenereignis:
     \newline\newline
     \[\mathbb{P}(X_{n} \leq k) = 1-\prod \limits_{j=1}^{k-1}(1- \frac{j}{n})\]
 
-    \[(k=2,3,...,n+1; \mathbb{P}(X_n\leq1) = 0)\]
+    \[(k=2,3,\dots,n+1; \mathbb{P}(X_n\leq1) = 0)\]
     \newline
     Die Formel zeigt die Wahrscheinlichkeiten \(\mathbb{P}(X_{n} \leq k)\) als Funktion von \(k\) für den Fall \(n = 365\).
-    Für das Ereignis \({X_{n} \leq 23}\) gilt\( \mathbb{P}(X_{n} \leq 23) = 0,5073 \)
+    Für das Ereignis \({X_{n} \leq 23}\) gilt \( \mathbb{P}(X_{n} \leq 23) \approx 0,507 \)
     \newline
     \newline
     Es vermag vermutlich überraschend erscheinen, dass wir bei fast 365 möglichen Tagen im Jahr durchaus auf das
@@ -45,9 +48,9 @@
     der Größenordnung \(\sqrt{n}\).
     \newline
     \newline
-    Da beim Geburtstagsproblem  \(\mathbb{P} (X365 \leq 23) = 0.507 > 1/2\) gilt, kann durchaus darauf gewettet werden,
+    Da beim Geburtstagsproblem  \(\mathbb{P} (X_n \leq 23) = 0.507 > 1/2\) gilt, kann durchaus darauf gewettet werden,
     dass unter 23 aber auch mehr Personen mindestens zwei am gleichen Tag Geburtstag haben. Bei
-    \(\sqrt{365 \cdot 2 \cdot ln(2)} \approx 22.49\)
+    \(\sqrt{365 \cdot 2 \cdot \ln(2)} \approx 22.49\)
     ist die Approximation schon für \(n\) = 365 sehr gut.
 
 
