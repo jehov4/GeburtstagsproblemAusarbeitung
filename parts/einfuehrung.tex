@@ -1,58 +1,57 @@
 % !TeX root = ../main.tex
 \documentclass[../main.tex]{subfiles}
 \begin{document}
-\section{Berechnung}
+    \section{Berechnung}
 
-Das Geburtstagsproblem generiert eine Wahrscheinlichkeit das unter \(k\) zufällig gewählten Personen mindestens zwei am
-selben Tag Geburtstag haben. Es ist eine Abwandlung des Paradoxons der ersten Kollision. \cite{henze} Bei \(k=23\) ist die
-Wahrscheinlichkeit das zwei Personen bereits am gleichen Tag Geburtstag haben bei über 50\%. Das ist gerade für
-stochastisch weniger bewanderte Personen erstaunlich, denn diese vermuten eine sehr viel geringere Wahrscheinlichkeit,
-da sie das Geburtstagsproblem auf ihr Umfeld assoziieren.
+    Das Geburtstagsproblem generiert eine Wahrscheinlichkeit das unter \(k\) zufällig gewählten Personen mindestens zwei am
+    selben Tag Geburtstag haben. Es ist eine Abwandlung des Paradoxons der ersten Kollision. \cite{henze} Bei \(k=23\) ist die
+    Wahrscheinlichkeit das zwei Personen bereits am gleichen Tag Geburtstag haben bei über 50\%. Das ist gerade für
+    stochastisch weniger bewanderte Personen erstaunlich, denn diese vermuten eine sehr viel geringere Wahrscheinlichkeit,
+    da sie das Geburtstagsproblem auf ihr Umfeld assoziieren.
 
-Zuerst bestimmen wir \(n\).
-Das ist die Wahrscheinlichkeit das eine Person an einem bestimmten Tag des Jahres Geburtstag hat.
-Das gewählte Jahr besitzt die Eigenschaften unserer Annahmen.
+    Zuerst bestimmen wir \(n\).
+    Das ist die Wahrscheinlichkeit das eine Person an einem bestimmten Tag des Jahres Geburtstag hat.
+    Das gewählte Jahr besitzt die Eigenschaften unserer Annahmen.
 
-Daraus ergibt sich:
+    Daraus ergibt sich:
 
-\begin{equation}
-n = \frac{1}{365}
-\end{equation}
+    \begin{equation}
+        n = \frac{1}{365}
+    \end{equation}
 
-Um auszurechnen, wie viele Personen sich in einem Raum befinden müssen, sodass die Wahrscheinlichkeit
-das mindestens zwei Personen am selben Tag Geburtstag haben bei 50\% oder mehr liegt verwenden wir das Gegenereignis.
-Wir berechnen die Wahrscheinlichkeit das alle Personen im Raum an verschiedenen Tagen Geburtstag haben und nähern uns
-von oben den 50\%.
+    Um auszurechnen, wie viele Personen sich in einem Raum befinden müssen, sodass die Wahrscheinlichkeit
+    das mindestens zwei Personen am selben Tag Geburtstag haben bei 50\% oder mehr liegt verwenden wir das Gegenereignis.
+    Wir berechnen die Wahrscheinlichkeit das alle Personen im Raum an verschiedenen Tagen Geburtstag haben und nähern uns
+    von oben den 50\%.
 
-Für 2 Personen:
+    Für 2 Personen:
 
-\begin{equation}
- \frac{365}{365} \cdot \frac{364}{365} = 0,997
-\end{equation}
+    \begin{equation}
+        \frac{365}{365} \cdot \frac{364}{365} = 0,997
+    \end{equation}
 
-Die erste Person kann aus 365 Tagen wählen, ohne das es zu einer Kollision kommt, für die 2. Person bleiben nur noch 364 Tage.
+    Die erste Person kann aus 365 Tagen wählen, ohne das es zu einer Kollision kommt, für die 2. Person bleiben nur noch 364 Tage.
 
-Für 3 Personen:
+    Für 3 Personen:
 
-\begin{equation}
- \frac{365}{365} \cdot \frac{364}{365} \cdot \frac{363}{365} = 0,991
-\end{equation}
+    \begin{equation}
+        \frac{365}{365} \cdot \frac{364}{365} \cdot \frac{363}{365} = 0,991
+    \end{equation}
 
-Dies wird weitergeführt, bis die Wahrscheinlichkeit für das Gegenereignis bei etwa 50\% liegt.
-Somit liegt dann auch das Ereignis das mindestens Zwei Personen am selben Tag Geburtstag haben bei etwa 50\%.
-Dieser Fall tritt bei einer Personenzahl von 23 ein.
+    Dies wird weitergeführt, bis die Wahrscheinlichkeit für das Gegenereignis bei etwa 50\% liegt.
+    Somit liegt dann auch das Ereignis das mindestens Zwei Personen am selben Tag Geburtstag haben bei etwa 50\%.
+    Dieser Fall tritt bei einer Personenzahl von 23 ein.
 
-\begin{equation}
- \frac{365}{365} \cdot \frac{364}{365} \cdot \frac{363}{365} \cdot \dots \cdot \frac{343}{365} = 0,493
-\end{equation}
+    \begin{equation}
+        \frac{365}{365} \cdot \frac{364}{365} \cdot \frac{363}{365} \cdot \dots \cdot \frac{343}{365} = 0,493
+    \end{equation}
 
-Die Wahrscheinlichkeit für keine Kollision liegt bei $0,493$.
-Somit liegt die Wahrscheinlichkeit für eine Kollision beim Gegenereignis bei $0,507$.
+    Die Wahrscheinlichkeit für keine Kollision liegt bei $0,493$.
+    Somit liegt die Wahrscheinlichkeit für eine Kollision beim Gegenereignis bei $0,507$.
 
-\begin{equation}
- 1-0,492 = 0,507
-\end{equation}
-
+    \begin{equation}
+        1-0,492 = 0,507
+    \end{equation}
 
 
 \end{document}
