@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.3.26)  26 MAR 2021 15:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.3.26)  11 APR 2021 20:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -1793,22 +1793,25 @@ File: graphics/dhbw_mosbach.png Graphic file (type bmp)
 \openout7 = `main.ist'.
 
 ])
-Missing character: There is no ” in font ec-lmr9!
-Missing character: There is no ” in font ec-lmr9!
-
-Overfull \hbox (25.08542pt too wide) in paragraph at lines 18--21
+Overfull \hbox (25.08542pt too wide) in paragraph at lines 18--32
 []\T1/lmr/m/n/9 Angenommen wir betrachten das Sommermärchen 2006. Hierbei durft
 e jede Mannschaft
  []
 
 
-Overfull \hbox (31.29605pt too wide) in paragraph at lines 18--21
+Overfull \hbox (31.29605pt too wide) in paragraph at lines 18--32
 \T1/lmr/m/n/9 23 Spieler für ihren Kader nominieren. Der Kader der deutschen Fu
 ßballnationalmannschaft
  []
 
 
-Overfull \hbox (23.39528pt too wide) in paragraph at lines 18--21
+Overfull \hbox (8.2128pt too wide) in paragraph at lines 18--32
+\T1/lmr/m/n/9 sogenannte Geburtstagsproblem, das auch unter dem Begriff "Geburt
+stagsparadoxonÿu
+ []
+
+
+Overfull \hbox (23.39528pt too wide) in paragraph at lines 18--32
 \T1/lmr/m/n/9 einem Platz befindenden Menschen, völlig außer Acht ließen. Das G
 eburtstagsparadoxon
  []
@@ -1823,21 +1826,22 @@ No file main.acr.
 [2
 
 ] (parts/einfuehrung.tex
-Overfull \hbox (10.16171pt too wide) in paragraph at lines 12--14
+Overfull \hbox (10.16171pt too wide) in paragraph at lines 12--15
 []\T1/lmr/m/n/10 Zuerst bestimmen wir $\OML/cmm/m/it/10 n$\T1/lmr/m/n/10 . Das 
 ist die Wahrscheinlichkeit das eine Person an einem bestimmten
  []
 
 
-Overfull \hbox (11.56262pt too wide) in paragraph at lines 21--22
+Overfull \hbox (8.78487pt too wide) in paragraph at lines 22--26
 \T1/lmr/m/n/10 50% oder mehr liegt verwenden wir das Gegenereignis. Wir berechn
-en die Wahrscheinlichkeit,
+en die Wahrscheinlichkeit
  []
 
 
-Overfull \hbox (1.82259pt too wide) in paragraph at lines 43--44
-[]\T1/lmr/m/n/10 Die Wahrscheinlichkeit für keine Kollision liegt bei 0,493, so
-mit liegt die Wahrscheinlichkeit
+Overfull \hbox (5.10583pt too wide) in paragraph at lines 49--51
+[]\T1/lmr/m/n/10 Die Wahrscheinlichkeit für keine Kollision liegt bei $\OT1/cmr
+/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 493$\T1/lmr/m/n/10 . Somit liegt di
+e Wahrscheinlichkeit
  []
 
 ) (parts/annahmen.tex
@@ -1849,145 +1853,191 @@ piel zu verwenden, werden
 [1
 
 ]
-Overfull \hbox (16.07005pt too wide) in paragraph at lines 27--28
+Overfull \hbox (14.11336pt too wide) in paragraph at lines 27--28
 []\T1/lmr/m/n/10 Das Jahr erfüllt in unserer Variante die Anforderungen an ein 
-La Place Experiment. 
+"Laplace-Experiment. 
  []
 
 Missing character: There is no ” in font ec-lmr10!
 Missing character: There is no “ in font ec-lmr10!
 Missing character: There is no ” in font ec-lmr10!
 ) (parts/laPlace.tex
-Missing character: There is no Ω in font ec-lmr10!
-
-Overfull \hbox (53.11148pt too wide) in paragraph at lines 14--18
-\T1/lmr/m/n/10 Wenn $\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/
-cmr/m/n/10 ) = []$ \T1/lmr/m/n/10 gilt, dann spricht man von Gleichverteilung, 
-genauer: die Wahrscheinlichkeitsfunktion
+Overfull \hbox (54.19135pt too wide) in paragraph at lines 12--16
+\T1/lmr/m/n/10 Wenn $\U/msb/m/n/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr
+/m/n/10 ) = []$ \T1/lmr/m/n/10 gilt, dann spricht man von Gleichverteilung, gen
+auer: die Wahrscheinlichkeitsfunktion
  []
 
-Missing character: There is no ” in font ec-lmr10!
-Missing character: There is no ” in font ec-lmr10!
-Missing character: There is no ö in font cmmi10!
-Missing character: There is no ö in font cmmi10!
 [2]
-Overfull \hbox (13.91869pt too wide) in paragraph at lines 42--44
+Overfull \hbox (13.91869pt too wide) in paragraph at lines 41--43
 \T1/lmr/m/n/10 Mithilfe der Gaußschen Summenformel lässt sich die Summe beliebi
 g vieler (= $\OML/cmm/m/it/10 n$\T1/lmr/m/n/10 ) natürlicher
  []
 
-) (parts/herleitungen.tex
-Overfull \hbox (24.56198pt too wide) detected at line 10
-[][]\OML/cmm/m/it/10 X[] \OT1/cmr/m/n/10 := []
- []
-
-[3] [4] [5] [6] [7]) (parts/naeherung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--22
+) (parts/naeherung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--22
 
  []
 
 
-Overfull \hbox (18.71526pt too wide) detected at line 22
+Overfull \hbox (22.04858pt too wide) detected at line 23
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25     \newline
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31     \newline
+                 \newline
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31     \newline\newline
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34     \newline
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
+Underfull \hbox (badness 10000) in paragraph at lines 41--55
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--33
-
+[3]) (parts/herleitungen.tex
+Overfull \hbox (24.56198pt too wide) detected at line 10
+[][]\OML/cmm/m/it/10 X[] \OT1/cmr/m/n/10 := []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--52
-
- []
-
-
-Overfull \hbox (1.75049pt too wide) in paragraph at lines 35--52
-\T1/lmr/m/n/10 im Jahr durchaus auf das Auftreten des doppelten Geburtstags nac
-h höchstens 23 Personen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--52
-
- []
-
-[8]) (parts/konkreteZahlen.tex
+[4] [5] [6] [7] [8]) (parts/konkreteZahlen.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 20.
+(hyperref)                removing `math shift' on input line 24.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leq' on input line 20.
+(hyperref)                removing `\leq' on input line 24.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 20.
+(hyperref)                removing `math shift' on input line 24.
 
 File: parts//../graphics/perde.png Graphic file (type bmp)
 <parts//../graphics/perde.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 76.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 76.
+(hyperref)                removing `math shift' on input line 80.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 80.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: parts//../graphics/peq.png Graphic file (type bmp)
 <parts//../graphics/peq.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[9]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `table:quantile' on page 10 undefined on input line 13
+2.
 
-)
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-7.
+[10]) [11]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
+5.
  (/home/liam/.miktex/texmfs/install/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (4.7928pt too wide) in paragraph at lines 48--48
+Overfull \hbox (4.7928pt too wide) in paragraph at lines 76--76
 \T1/lmr/m/it/10 Zufalls\T1/lmr/m/n/10 , ger, 11., überarbeitete Auflage, Ser. L
 ehrbuch. Wiesbaden: Springer Spektrum,
  []
 
-[10]
-Overfull \hbox (42.22978pt too wide) in paragraph at lines 48--48
+
+Overfull \hbox (42.22978pt too wide) in paragraph at lines 76--76
 \T1/lmr/m/it/10 und Arbeitsbuch für das Grundstudium\T1/lmr/m/n/10 , Ser. Viewe
 gs Fachbücher der Technik. Vieweg+Teubner
  []
 
-[11] (main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 37D9130C0F0F4C309C9A24EF419A5CBA;2521.
+[12
+
+] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 098EBFFB3B43878DABF39299130B1BBA;2513
+(rerunfilecheck)             After:  3166BA62137F2C389192D3EE8D7C1D63;2513.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39067 strings out of 413701
- 693222 string characters out of 2870050
- 1631473 words of memory out of 3000000
- 58209 multiletter control sequences out of 15000+200000
+ 39079 strings out of 413701
+ 693496 string characters out of 2870050
+ 1630957 words of memory out of 3000000
+ 58221 multiletter control sequences out of 15000+200000
  451954 words of font info for 62 fonts, out of 3000000 for 9000
  2 hyphenation exceptions out of 8191
- 126i,11n,145p,1195b,4906s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 126i,11n,145p,1195b,4747s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (14 pages).
+Output written on main.pdf (15 pages).

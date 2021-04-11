@@ -111,7 +111,7 @@
     Der Erwartungswert für die erste Kollision wird über die Formel \ref{num.exp} errechnet.
 
     \begin{equation}
-        E(X) \approx 1 + \sqrt{\frac{1}{2} \pi n}
+        \mathbb{E}(X) \approx \sqrt{ \frac{ \pi \cdot n }{ 2 } } + 1
         \label{num.exp}
     \end{equation}
 
@@ -129,10 +129,10 @@
 
     \subsection{Quantile}
 
-    Die Quantile für die erste Kollision werden über die Formel \ref{num.q} berechnet.
+    Die Quantile für die erste Kollision werden über die Formel \ref{num.q} berechnet. Die Ergebnisse sind in Tabelle \ref{table:quantile} zu sehen.
 
     \begin{equation}
-        q_{\alpha} \approx 1 + \sqrt{2n \cdot ln(1-\alpha)}
+        Q_{ p }(X) \approx \frac{ 1 }{ 2 } + \sqrt{ \frac{ 1 }{ 4 } - 2n\cdot ln(1-p)}
         \label{num.q}
     \end{equation}
 
@@ -145,6 +145,7 @@
             $\frac{1}{2}$ & 23,494            & 33,883            & 78,477               \\
             $\frac{3}{4}$ & 32,812            & 47,504            & 110,569              \\ \hline
         \end{tabular}
+        \caption{\label{table:quantile} Quantile auf den vershiedenen Planeten}
     \end{table}
 
 
